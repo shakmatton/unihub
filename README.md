@@ -1,5 +1,5 @@
 # unihub
 Unihub - Mapping of west Paraná innovation environments 
 
-Check this link:
+Link:
 https://shakmatton.github.io/unihub/
