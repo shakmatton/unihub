@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapeamento Separtec</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+    #map {
+      height: 100%;
+      width: 50%;
+    }
+    #info-panel {
+      width: 50%;
+      padding: 10px;
+      overflow-y: auto;
+      font-family: Calibri, sans-serif;
+      font-size: small;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 4px;
+      text-align: left;
+      word-wrap: break-word;
+      white-space: normal;
+      max-width: 200px;
+    }
+    th {
+      background: none;
+      color: black;
+      position: relative;
+      font-size: small;
+    }
+    select {
+      font-size: small;
+      margin-left: 5px;
+      width: 90%;
+      max-width: 180px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="info-panel">
+    <table id="info-table">
+      <thead>
+        <tr>
+          <th>Ambiente <select data-column="AMBIENTE"></select></th>
+          <th>Entidade <select data-column="ENTIDADE/ÓRGÃO PROPONENTE"></select></th>
+          <th>Município <select data-column="MUNICÍPIO"></select></th>
+          <th>Área <select data-column="ÁREA TEMÁTICA/CONHECIMENTO"></select></th>
+          <th>Ano <select data-column="ANO"></select></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    var map = L.map('map').setView([-25.0284, -51.5733], 7);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    let tableData = [];
+    let municipiosLayer;
+    let municipiosMap = {};
+    let municipiosComAmbientes = new Set();
+    // Mapeia cores para valores da coluna "Área". (Mantive a lógica de cores do arco-íris se desejado, ou pode manter como preferir)
+    let areaColorMapping = {};
+    const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#8B00FF"];
+    let rainbowIndex = 0;
+
+    function loadTableData() {
+      fetch('dados_separtec_final.json')
+        .then(response => response.json())
+        .then(infoData => {
+          tableData = infoData;
+          tableData.forEach(item => {
+            item.ANO = String(item.ANO);
+            municipiosComAmbientes.add(item.MUNICÍPIO.toUpperCase());
+          });
+          populateTable(infoData);
+          populateFilters();
+        });
+    }
+
+    fetch('municipios-pr.json')
+      .then(response => response.json())
+      .then(data => {
+        municipiosLayer = L.geoJSON(data, {
+          style: function(feature) {
+            return {
+              color: "#000",
+              weight: 1,
+              fillColor: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? "#FFC0CB" : "#ccc",
+              fillOpacity: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? 0.5 : 0.3
+            };
+          },
+          onEachFeature: function(feature, layer) {
+            municipiosMap[feature.properties.name.toUpperCase()] = layer;
+            layer.on({
+              mouseover: function() {
+                // Se houver filtro na coluna Área, não altera o estilo
+                let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+                if (!areaSelect || areaSelect.value === "") {
+                  highlightMunicipio(feature.properties.name);
+                }
+              },
+              mouseout: function() {
+                let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+                if (!areaSelect || areaSelect.value === "") {
+                  resetMunicipioHighlight();
+                } else {
+                  updateMunicipioStylesForAreaFilter();
+                }
+              },
+              click: function() {
+                filterByMunicipio(feature.properties.name);
+              }
+            });
+          }
+        }).addTo(map);
+      });
+
+    function populateTable(data) {
+      var tbody = document.querySelector('#info-table tbody');
+      tbody.innerHTML = '';
+      data.forEach(item => {
+        var row = document.createElement('tr');
+        row.innerHTML = `<td>${breakText(item.AMBIENTE)}</td>
+                         <td>${breakText(item["ENTIDADE/ÓRGÃO PROPONENTE"])}</td>
+                         <td>${item.MUNICÍPIO}</td>
+                         <td>${breakText(item["ÁREA TEMÁTICA/CONHECIMENTO"])}</td>
+                         <td>${item.ANO ? item.ANO : ''}</td>`;
+        row.dataset.municipio = item.MUNICÍPIO;
+        tbody.appendChild(row);
+      });
+      attachRowEvents();
+    }
+
+    function breakText(text) {
+      let words = text.split(' ');
+      let lines = [''];
+      let currentLine = 0;
+      words.forEach(word => {
+        if ((lines[currentLine] + ' ' + word).length > 25) {
+          currentLine++;
+          lines[currentLine] = '';
+        }
+        lines[currentLine] += (lines[currentLine] ? ' ' : '') + word;
+      });
+      return lines.join('<br>');
+    }
+
+    function attachRowEvents() {
+      document.querySelectorAll('#info-table tbody tr').forEach(row => {
+        row.addEventListener('mouseover', function() {
+          let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+          if (!areaSelect || areaSelect.value === "") {
+            highlightMunicipio(row.dataset.municipio);
+          }
+        });
+        row.addEventListener('mouseout', function() {
+          let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+          if (!areaSelect || areaSelect.value === "") {
+            resetMunicipioHighlight();
+          } else {
+            updateMunicipioStylesForAreaFilter();
+          }
+        });
+      });
+    }
+
+    function filterByMunicipio(municipio) {
+      var filteredData = tableData.filter(item => item.MUNICÍPIO.toUpperCase() === municipio.toUpperCase());
+      populateTable(filteredData);
+    }
+
+    function populateFilters() {
+      document.querySelectorAll('select').forEach(select => {
+        const column = select.dataset.column;
+        const uniqueValues = [...new Set(tableData.map(item => String(item[column])))].sort();
+        select.innerHTML = '<option value="">Todos</option>';
+        uniqueValues.forEach(value => {
+          if (value) {
+            // Se for a coluna Área, atribui uma cor do arco-íris, se ainda não tiver mapeado
+            if (column === "ÁREA TEMÁTICA/CONHECIMENTO" && !areaColorMapping[value]) {
+              areaColorMapping[value] = rainbowColors[rainbowIndex % rainbowColors.length];
+              rainbowIndex++;
+            }
+            const option = document.createElement('option');
+            option.value = value;
+            option.textContent = value;
+            select.appendChild(option);
+          }
+        });
+        select.addEventListener('change', filterTable);
+      });
+    }
+
+    function filterTable() {
+      const filters = {};
+      document.querySelectorAll('select').forEach(select => {
+        if (select.value) {
+          filters[select.dataset.column] = select.value;
+        }
+      });
+      var filteredData = tableData.filter(item => {
+        return Object.keys(filters).every(key => String(item[key]) === filters[key]);
+      });
+      populateTable(filteredData);
+      updateMunicipioStylesForAreaFilter();
+    }
+
+    // Atualiza os estilos dos municípios quando há um filtro na coluna Área
+    function updateMunicipioStylesForAreaFilter() {
+      let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+      if (areaSelect && areaSelect.value) {
+        let filterValue = areaSelect.value;
+        let color = areaColorMapping[filterValue] || "#FF69B4";
+        Object.values(municipiosMap).forEach(layer => {
+          let muniName = layer.feature.properties.name.toUpperCase();
+          let hasArea = tableData.some(item => item.MUNICÍPIO.toUpperCase() === muniName && item["ÁREA TEMÁTICA/CONHECIMENTO"] === filterValue);
+          if (hasArea) {
+            layer.setStyle({ fillColor: color, fillOpacity: 0.9 });
+          } else {
+            layer.setStyle({ fillColor: "#ccc", fillOpacity: 0.3 });
+          }
+        });
+      } else {
+        resetMunicipioHighlight();
+      }
+    }
+
+    function highlightMunicipio(municipioNome) {
+      let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+      if (areaSelect && areaSelect.value) {
+        // Se o filtro de Área estiver ativo, não altera o estilo do município via hover
+        return;
+      }
+      const municipioLayer = municipiosMap[municipioNome.toUpperCase()];
+      if (municipioLayer) {
+        municipioLayer.setStyle({ fillColor: "yellow", fillOpacity: 0.7 });
+      }
+    }
+
+    function resetMunicipioHighlight() {
+      let areaSelect = document.querySelector('select[data-column="ÁREA TEMÁTICA/CONHECIMENTO"]');
+      if (areaSelect && areaSelect.value) {
+        updateMunicipioStylesForAreaFilter();
+        return;
+      }
+      Object.values(municipiosMap).forEach(layer => {
+        layer.setStyle({
+          fillColor: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? "#FFC0CB" : "#ccc",
+          fillOpacity: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? 0.5 : 0.3
+        });
+      });
+    }
+
+    function filterByMunicipio(municipio) {
+      var filteredData = tableData.filter(item => item.MUNICÍPIO.toUpperCase() === municipio.toUpperCase());
+      populateTable(filteredData);
+    }
+
+    loadTableData();
+  </script>
+</body>
+</html>

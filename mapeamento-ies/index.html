@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa Interativo do Paraná</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; height: 100vh; width: 100vw; display: flex; }
+        #map { position: relative; height: 100%; width: 60%; }
+        #table-container { width: 65%; overflow-y: auto; padding-left: 10px; }
+        table { width: 100%; border-collapse: collapse; font-family: Calibri, sans-serif; font-size: 12px; }
+        th, td { border: 1px solid #ddd; padding: 4px; text-align: left; word-wrap: break-word; }
+        tr:hover { background-color: #f5f5f5; cursor: pointer; }
+        select { margin-left: 5px; font-size: 11px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="table-container">
+        <table id="info-table">
+            <thead>
+                <tr>
+                    <th>Nome <select data-column="Nome (IES)"></select></th>
+                    <th>Sigla <select data-column="Sigla"></select></th>
+                    <th>Município <select data-column="Município"></select></th>
+                    <th>Site</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <!-- <button id="add-row">Adicionar Linha</button> <-->
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const oestePR = [-24.9, -53.8];
+        const zoomOeste = 9;
+        const localStorageKey = 'dados-tabela';
+        let geojsonLayer;
+        let tableData = [];
+
+        var map = L.map('map').setView(oestePR, zoomOeste);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        function populateSelect(select, data) {
+            const options = [...new Set(data.map(item => item[select.dataset.column]))].sort();
+            select.innerHTML = "<option value=''></option>";
+            options.forEach(option => {
+                const optionElement = document.createElement('option');
+                optionElement.textContent = option;
+                optionElement.value = option;
+                select.appendChild(optionElement);
+            });
+            select.addEventListener('change', filterTable);
+        }
+
+        function filterTable() {
+            const selects = document.querySelectorAll('select');
+            const filters = Array.from(selects).filter(select => select.value !== "");
+            let filteredData = tableData;
+            filters.forEach(filter => {
+                filteredData = filteredData.filter(item => item[filter.dataset.column] === filter.value);
+            });
+            const tableBody = document.getElementById('info-table').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = "";
+            filteredData.forEach(item => addTableRow(item));
+            updateMap();
+        }
+
+        function addTableRow(dados, isNew = false) {
+            const tableBody = document.getElementById('info-table').getElementsByTagName('tbody')[0];
+            const row = tableBody.insertRow();
+            const nomeCell = row.insertCell();
+            const siglaCell = row.insertCell();
+            const municipioCell = row.insertCell();
+            const siteCell = row.insertCell();
+
+            nomeCell.textContent = dados["Nome (IES)"];
+            siglaCell.textContent = dados.Sigla;
+            municipioCell.textContent = dados.Município;
+            siteCell.innerHTML = `<a href="${dados.SITE}" target="_blank">${dados.SITE}</a>`;
+
+            if (isNew) {
+                nomeCell.contentEditable = true;
+                siglaCell.contentEditable = true;
+                municipioCell.contentEditable = true;
+                siteCell.contentEditable = true;
+
+                row.addEventListener('blur', () => {
+                    updateTableData();
+                    updateMap();
+                });
+            }
+
+            row.addEventListener('mouseover', () => {
+                updateMap(dados.Município);
+            });
+
+            row.addEventListener('mouseout', () => {
+                updateMap();
+            });
+        }
+
+        function updateTableData() {
+            const tableBody = document.getElementById('info-table').getElementsByTagName('tbody')[0];
+            tableData = [];
+            for (let i = 0; i < tableBody.rows.length; i++) {
+                const row = tableBody.rows[i];
+                const rowData = {
+                    "Nome (IES)": row.cells[0].textContent,
+                    "Sigla": row.cells[1].textContent,
+                    "Município": row.cells[2].textContent,
+                    "Website": row.cells[3].textContent
+                };
+                tableData.push(rowData);
+            }
+            localStorage.setItem(localStorageKey, JSON.stringify(tableData));
+        }
+
+        function updateMap(municipio) {
+            if (!geojsonLayer) return; // Verifica se geojsonLayer já foi inicializado
+            geojsonLayer.eachLayer(layer => {
+                const temDados = tableData.some(d => d.Município === layer.feature.properties.name);
+                let fillColor = temDados ? '#a0d8ef' : '#CCCCCC';
+                let fillOpacity = 0.7;
+
+                if (municipio && layer.feature.properties.name === municipio) {
+                    fillColor = '#FF69B4';
+                    fillOpacity = 1;
+                    map.panTo(layer.getBounds().getCenter(), { duration: 2000 });
+                }
+                layer.setStyle({ fillColor: fillColor, fillOpacity: fillOpacity });
+            });
+        }
+
+        Promise.all([
+            fetch('./municipios-pr.json').then(res => res.json()).catch(error => { console.error("Erro municipios-pr:", error); return null; }),
+            fetch('./dados-ies.json').then(res => res.json()).catch(error => { console.error("Erro dados-ies:", error); return null; })
+        ]).then(([municipiosGeoJSON, dadosIES]) => {
+            if (!municipiosGeoJSON || !dadosIES) {
+                console.error("Erro ao carregar JSONs.");
+                return;
+            }
+
+            const tableBody = document.getElementById('info-table').getElementsByTagName('tbody')[0];
+            const selects = document.querySelectorAll('select');
+
+            // Funções (já definidas na parte 1: populateSelect, filterTable, addTableRow, updateTableData, updateMap)
+
+            let initialData = dadosIES;
+            const storedData = localStorage.getItem(localStorageKey);
+            if (storedData) {
+                initialData = JSON.parse(storedData);
+            }
+            tableData = initialData;
+
+            geojsonLayer = L.geoJSON(municipiosGeoJSON, {
+                style: function (feature) {
+                    const temDados = tableData.some(d => d.Município === feature.properties.name);
+                    return {
+                        fillColor: temDados ? '#a0d8ef' : '#CCCCCC',
+                        weight: 1,
+                        opacity: 1,
+                        color: 'black',
+                        fillOpacity: 0.7
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const dados = tableData.find(d => d.Município === feature.properties.name);
+                    if (dados) {
+                        layer.bindPopup(`<b>${dados.Município}</b>`);
+                        layer.on('mouseover', function (e) {
+                            layer.setStyle({
+                                fillColor: '#FF69B4',
+                                fillOpacity: 1
+                            });
+                        });
+                        layer.on('mouseout', function (e) {
+                            layer.setStyle({
+                                fillColor: '#a0d8ef',
+                                fillOpacity: 0.7
+                            });
+                        });
+                    }
+                }
+            }).addTo(map);
+
+            tableData.forEach(dados => addTableRow(dados));
+            selects.forEach(select => populateSelect(select, tableData));
+
+            /*document.getElementById('add-row').addEventListener('click', () => {
+                const newEntry = {
+                    "Nome (IES)": "",
+                    "Sigla": "",
+                    "Município": "",
+                    "Website": ""
+                };
+                tableData.push(newEntry);
+                localStorage.setItem(localStorageKey, JSON.stringify(tableData));
+                addTableRow(newEntry, true);
+                selects.forEach(select => populateSelect(select, tableData));
+            });*/
+        });
+    </script>
+</body>
+</html>

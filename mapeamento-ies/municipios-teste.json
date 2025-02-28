@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Curitiba" },
+      "geometry": { "type": "Point", "coordinates": [-49.2719, -25.4296] }
+    }
+  ]
+}

@@ -1,0 +1,4385 @@
+[
+    {
+        "Nº":1,
+        "AMBIENTE":"ACELERADORA   HABITAT SENAI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI - CAMPUS DA INDÚSTRIA",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":2,
+        "AMBIENTE":"EVOA ACELERADORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"EVOA SISCOOB",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":3,
+        "AMBIENTE":"3C LAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"3C PLUS TI",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":4,
+        "AMBIENTE":"ACELERADORA ASSESPRO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DAS EMPRESAS BRASILEIRAS DE TECNOLOGIA DA INFORMAÇÃO-ASSESPRO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":5,
+        "AMBIENTE":"ACELERADORA CTUP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO CILLA TECH PARK",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":6,
+        "AMBIENTE":"ACELERADORA FUNDAÇÃO EDUCERE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO EDUCERE DE CAMPO MOURÃO",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":7,
+        "AMBIENTE":"ACICLABS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE CASCAVEL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":8,
+        "AMBIENTE":"HUB BRASIL DE SOLUÇÕES PARA GOVERNO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AVALIANDO BRASIL",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":9,
+        "AMBIENTE":"INCUBADORA ACELERADORA INTECCID",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE UMUARAMA",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":10,
+        "AMBIENTE":"INSTITUTO LEGADO DE EMPREENDEDORISMO SOCIAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO LEGADO DE EMPREENDEDORISMO SOCIAL",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":11,
+        "AMBIENTE":"REGINA VENTURES: ACELERADORA NO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REGNA VENTURES",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":12,
+        "AMBIENTE":"VENTIUR INVESTIMENTOS EM NOVOS NEGÓCIOS S.A.",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"VENTIUR INVESTIMENTOS EM NOVOS NEGÓCIOS S.A.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Aceleradora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":13,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO DA UNIOESTE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":14,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO DA UNIVERSIDADE FEDERAL DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":15,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO DA UTFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":16,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO DE MORRETES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"MORRETES",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":17,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO E TRANSFORMAÇÃO DIGITAL DO VALE DO SOL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"ASSAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":18,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO\/ AGITEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":19,
+        "AMBIENTE":"AGEUNI \/ UENP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AGÊNCIA DE DESENVOLVIMENTO REGIONAL SUSTENTÁVEL E DE INOVAÇÃO",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":20,
+        "AMBIENTE":"AGIPI\/UEPG",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEPG - UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":21,
+        "AMBIENTE":"AGITEC UNESPAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAGUÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":22,
+        "AMBIENTE":"AGITEC UNESPAR - APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":23,
+        "AMBIENTE":"AGITEC UNESPAR CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":24,
+        "AMBIENTE":"AGITEC UNESPAR PARANAVAÍ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAVAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":25,
+        "AMBIENTE":"AGITEC UNESPAR UNIÃO DA VITÓRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"UNIÃO DA VITÓRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":26,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO UEL - AINTEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEL - UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":27,
+        "AMBIENTE":"DIRETORIA DE PESQUISA E INOVAÇÃO (DPI)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IDR PARANA",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":28,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DA UNIVERSIDADE ESTADUAL DE MARINGÁ  - NIT - UEM",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":29,
+        "AMBIENTE":"INOVA MANOEL RIBAS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"MANOEL RIBAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":30,
+        "AMBIENTE":"INSTITUTO INTEGRADO DE CIENCIA E TECNOLOGIA - IN2",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO EDUCACIONAL INTEGRADO",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":31,
+        "AMBIENTE":"NIT - CENTRO UNIVERSITÁRIO CAMPO REAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COMPLEXO DE ENSINO SUPERIOR CAMPO REAL LTDA. - CAMPO REAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":32,
+        "AMBIENTE":"NIT AITEC\/UENP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"BANDEIRANTES",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":33,
+        "AMBIENTE":"NIT PUCPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PONTIFÍCIA UNIVERSIDADE CATÓLICA PUC\/PR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":34,
+        "AMBIENTE":"NOVATEC UNICENTRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNICENTRO - UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":35,
+        "AMBIENTE":"NUCLEO DE INOVAÇÃO TECNOLÓGICA DO IFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"UNIÃO DA VITORIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":36,
+        "AMBIENTE":"AGÊNCIA DE INOVAÇÃO IFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":37,
+        "AMBIENTE":"ASSESSORIA DE NOVOS NEGÓCIOS E INOVAÇÃO - FIOCRUZ PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO CARLOS CHAGAS - FIOCRUZ PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":38,
+        "AMBIENTE":"CENTRO DE PESQUISA DA UNIVERSIDADE POSITIVO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE PESQUISA DA UNIVERSIDADE POSITIVO CPUP",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":39,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO E TECNOLOGIA (NIT) DO IFPR - CAMPUS ASTORGA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"ASTORGA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":40,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA (NIT) DO IFPR CAMPUS IVAIPORÃ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"IVAIPORÃ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":41,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DA UNIVERSIDADE DA INTEGRAÇÃO LATINO AMERICANA (NIT-UNILA)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNILA - UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINO-AMERICANA",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":42,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DA UTFPR - CAMPUS APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":43,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DO IFPR - CAMPUS JACAREZINHO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":44,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DO IFPR ASSIS CHATEAUBRIAND",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"ASSIS CHATEUBRIAND",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":45,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DO IFPR CAMPUS PARANAVAÍ - NIT\/CAMPUS PARANAVAÍ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAVAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":46,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO TECNOLÓGICA DO IFPR - CAMPUS PITANGA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PITANGA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Agência de Inovação\/NIT",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":47,
+        "AMBIENTE":"APRESENTAÇÃO ACCELERA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ACCELERA HUB LTDA.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":48,
+        "AMBIENTE":"CENTRO DE DESENVOLVIMENTO DE TECNOLOGIA E INOVAÇÃO LÚCIA LEVATTI GOMES - CDTI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE DESENVOLVIMENTO DE TECNOLOGIA E INOVAÇÃO LUCIA LEVATTI GOMES CDTI",
+        "MUNICÍPIO":"SANTO ANTÔNIO DA PLATINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":49,
+        "AMBIENTE":"CENTRO DE ECONOMIA APLICADA, COOPERAÇÃO E INOVAÇÃO NO AGRONEGÓCIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":50,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO - INOVA ANHANGUERA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIVERSIDADE PITÁGORAS UNOPAR ANHANGUERA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":51,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DE CAMPO MOURÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":52,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DE CIANORTE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"CIANORTE",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":53,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DE MARINGÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE INOVAÇÃO DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":54,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DE MORRETES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"MORRETES",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":55,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DO CAMPUS DE PATO BRANCO DA UTFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":56,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DO MUNICÍPIO DE MATINHOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"MATINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":57,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO E AGÊNCIA GUARÁ 3.0",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"GUARATUBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":58,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO E SUSTENTABILIDADE DO VALE DO SOL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"ASSAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":59,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO E SUSTENTABILIDADE DO VALE DO SOL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"ASSAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":60,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO EM AGROTECNOLOGIA CLM\/UENP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"BANDEIRANTES",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":61,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO KEPHA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"KEPHA MENTORIA DE PROJETOS TECNOLOGICOS LTDA.",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":62,
+        "AMBIENTE":"CENTRO DE PESQUISA E INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":63,
+        "AMBIENTE":"CIC - CENTRO DE INOVAÇÃO DO COMÉRCIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINCOVAL",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":64,
+        "AMBIENTE":"COCRIAGRO - HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COCRIAGRO ASSESSORIA EMPRESARIAL",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":65,
+        "AMBIENTE":"ECOHUB - CENTRO DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIVERSIDADE POSITIVO",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":66,
+        "AMBIENTE":"GRAPE TECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"COLOMBO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":67,
+        "AMBIENTE":"IBMP - INSTITUTO DE BIOLOGIA MOLECULAR DO PARANÁ - CENTRO DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IBMP",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":68,
+        "AMBIENTE":"INOVA RIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"RIO AZUL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":69,
+        "AMBIENTE":"INSTITUTO SENAI DE TECNOLOGIA EM CELULOSE E PAPEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":70,
+        "AMBIENTE":"IST MM - INSTITUTO SENAI TECNOLOGIA METALMECANICA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FIEP\/SENAI",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":71,
+        "AMBIENTE":"PINHÃO HUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":72,
+        "AMBIENTE":"PLATAFORMA INTERNACIONAL INOVATECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INNOVATECH - CENTRO DE INOVAÇÃO",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":73,
+        "AMBIENTE":"TECNOCENTRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COMPANHIA DE TECNOLOGIA E DESENVOLVIMENTO S.A.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":74,
+        "AMBIENTE":"UNIMED REGIONAL MARINGÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIMED",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":75,
+        "AMBIENTE":"COMPLEXO HOSPITALAR DE CLÍNICAS EBSERH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":76,
+        "AMBIENTE":"312 COWORKING AND OFFICES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"312 COWORKING",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":77,
+        "AMBIENTE":"AGENCIA DE INOVAÇÃO E DESENVOLVIMENTO DE PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":78,
+        "AMBIENTE":"ATLAS ONFIRE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ATLAS ELETRODOMÉSTICOS",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":79,
+        "AMBIENTE":"BIOPARK EDUCAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DE ENSINO PESQUISA E EXTENSÃO BIOPARK",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":80,
+        "AMBIENTE":"CENIOR - CENTRO DE INOVAÇÃO UNIPAR E FUNDAÇÃO CANDIDO GARCIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO CÂNDIDO GARCIA - FUNCANDIDO",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":81,
+        "AMBIENTE":"CENTRO DE GESTÃO E INOVAÇÃO ACITEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE TELÊMACO BORBA - ACITEL",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":83,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO CAMPO REAL - CAMPUS GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSÃO CAMPO REAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":85,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DA CONFECÇÃO DE APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SIVALE - SINDICATO DAS INDÚSTRIAS DO VESTUÁRIO DE APUCARANA E VALE DO IVAÍ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":86,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DA UTFPR - CAMPUS GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":88,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DO INSTITUTO SYNAPSE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO SYNAPSE",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":89,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO DO TI-PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDICATO DA INDUSTRIA DE TECNOLOGIA DA INFORMACAO DO PARANÁ - TI PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":90,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO EM CIÊNCIA E TECNOLOGIA DE PALOTINA - CICT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PALOTINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":91,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO EM MATERIAIS E TECNOLOGIAS RENOVÁVEIS - REMATECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":92,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO EM MEIO AMBIENTE E QUÍMICA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":93,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO INOVAMANÉ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE SÃO MANOEL DO PARANÁ",
+        "MUNICÍPIO":"SÃO MANOEL DO PARANÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":94,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO PEDAGÓGICA, PESQUISA E DESENVOLVIMENTO DOS COLÉGIOS DA REDE POSITIVO - CIPP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"POSITIVO EDUCACIONAL LTDA. (CIPP)",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":95,
+        "AMBIENTE":"COCAMAR LABS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COCAMAR COOPERATIVA AGROINDUSTRIAL",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":96,
+        "AMBIENTE":"CONNECTORY CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ROBERT BOSCH LIMITADA",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":97,
+        "AMBIENTE":"ESTACÃO DE INOVAÇÃO HUB ONE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARA O DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO - FUNDETEC",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":98,
+        "AMBIENTE":"FILMAT OPEN LAB - DFIS UEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEL - UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":99,
+        "AMBIENTE":"HOSPITAL UNIVERSITÁRIO DA UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEL - UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":100,
+        "AMBIENTE":"INCUBADORA E ACELERADORA DE STARTUPS INOVA - SÃO MATEUS DO SUL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"MUNICÍPIO DE SÃO MATEUS DO SUL",
+        "MUNICÍPIO":"SÃO MATEUS DO SUL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":101,
+        "AMBIENTE":"INSTITUTO CARLOS CHAGAS (ICC) - FIOCRUZ PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO CARLOS CHAGAS - FIOCRUZ PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":102,
+        "AMBIENTE":"INSTITUTO PARA PESQUISA DO CÂNCER DE GUARAPUAVA - IPEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IPEC - INSTITUTO PARA PESQUISA DO CÂNCER DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":103,
+        "AMBIENTE":"INSTITUTO SENAI DE INOVAÇÃO EM ELETROQUÍMICA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI - CAMPUS DA INDÚSTRIA",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":104,
+        "AMBIENTE":"INSTITUTO SENAI DE INOVAÇÃO EM ENGENHARIA DE ESTRUTURAS (ISI-EE)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":105,
+        "AMBIENTE":"INSTITUTO SENAI DE TECNOLOGIA EM CONSTRUÇÃO CIVIL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":106,
+        "AMBIENTE":"INSTITUTO SENAI DE TECNOLOGIA EM MADEIRA E MOBILIÁRIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":107,
+        "AMBIENTE":"INSTITUTO SENAI DE TECNOLOGIA EM PRODUTIVIDADE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - DEPARTAMENTO REGIONAL DO PARANÁ PR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":108,
+        "AMBIENTE":"LAB BUSINESS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FILADÉLFIA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":109,
+        "AMBIENTE":"LAGEAMB - LABORATÓRIO DE GEOPROCESSAMENTO E ESTUDOS AMBIENTAIS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":110,
+        "AMBIENTE":"PARANÁ-HUB DE TECNOLOGIAS PARA TRANSIÇÃO ENERGÉTICA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Centro de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":111,
+        "AMBIENTE":"PRINT ESPAÇO MAKER DA UTFPR-GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":112,
+        "AMBIENTE":"ARAUCÁRIA LAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FELIPE SANTOS GOMES",
+        "MUNICÍPIO":"ARAUCÁRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":113,
+        "AMBIENTE":"ECOHUB - ESPAÇO MAKER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CARLOS AUGUSTO FRANÇA VARGAS",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":114,
+        "AMBIENTE":"ESPAÇO MAKER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"MARECHAL CÂNDIDO RONDON",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":115,
+        "AMBIENTE":"ESPAÇO MAKER - CELEIRO DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CILLA TECH PARK",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":116,
+        "AMBIENTE":"ESPAÇO MAKER - INOVA ANHANGUERA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIVERSIDADE PITÁGORAS UNOPAR ANHANGUERA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":117,
+        "AMBIENTE":"ESPAÇO MAKER AGITEC UNESPAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAGUÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":118,
+        "AMBIENTE":"ESPAÇO MAKER CAPOCU SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"FAZENDA RIO GRANDE",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":119,
+        "AMBIENTE":"ESPAÇO MAKER CLM",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"BANDEIRANTES",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":120,
+        "AMBIENTE":"ESPAÇO MAKER DO PARQUE UNIVERSITÁRIO DE CIÊNCIA, CULTURA E INOVAÇÃO DA UENP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":121,
+        "AMBIENTE":"ESPAÇO MAKER UENP CAMPUS DE CORNÉLIO PROCÓPIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"CORNÉLIO PROCÓPIO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":122,
+        "AMBIENTE":"ESPAÇO MAKER: INTEGRAÇÃO ENTRE UNIVERSIDADE E COMUNIDADE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":123,
+        "AMBIENTE":"ESPAÇO MAKERSPACE ESCOLA MUNICIPAL MAESTRO ROBERTO PEREIRA PANICO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"APM DA ESCOLA MUNICIPAL MAESTRO ROBERTO PEREIRA PANICO",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":124,
+        "AMBIENTE":"ESPAÇO NANOMAKER UFPR JANDAIA DO SUL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JANDAIA DO SUL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":125,
+        "AMBIENTE":"FAB LAB - PREFEITURA DE CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":126,
+        "AMBIENTE":"FAB.I HU NUCLEO DE FABRICAÇÃO DIGITAL E INOVAÇÃO DO HU",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"HOSPITAL UNIVERSITARIO - UEL",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":127,
+        "AMBIENTE":"FABLAB UTFPR- PATO BRANCO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":128,
+        "AMBIENTE":"FABTECH - ESPAÇO MAKER DO PARQUE CIENTÍFICO E TECNOLÓGICO DA UTFPR CAMPUS CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":129,
+        "AMBIENTE":"GAJAC - LABORATÓRIO MAKER DO IFPR CAMPUS JACAREZINHO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":130,
+        "AMBIENTE":"LAB - LABORATÓRIO DE IDEIAS DA PREFEITURA DE GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":131,
+        "AMBIENTE":"LAB MAKER IGUAÇU",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARQUE TECNOLÓGICO ITAIPU",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":132,
+        "AMBIENTE":"ARBORETO MAKERS!",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"DIY COWORKING LTDA.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":133,
+        "AMBIENTE":"CENTRO DE CRIATIVIDADE DE PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"MUNICÍPIO DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":134,
+        "AMBIENTE":"COLÉGIO ESTADUAL DE PATO BRANCO - CEPB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SECRETARIA DE ESTADO DA EDUCAÇÃO - SEED - COLÉGIO ESTADUAL DE PATO BRANCO (CEPB)",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":135,
+        "AMBIENTE":"COLLAB - LABORATÓRIO COLABORATIVO MULTIUSUÁRIO DA UTFPR CAMPUS PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":136,
+        "AMBIENTE":"ESCOLA DR. ROBERTO CUNHA E SILVA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":137,
+        "AMBIENTE":"ESCOLA MUNICIPAL ABÍLIO FABRICIANO DE OLIVEIRA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":138,
+        "AMBIENTE":"ESCOLA MUNICIPAL ALCINDO DE FRANÇA PACHECO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":139,
+        "AMBIENTE":"ESCOLA MUNICIPAL ANTONIO LUSTOSA DE OLIVEIRA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":140,
+        "AMBIENTE":"ESCOLA MUNICIPAL CAPITÃO WAGNER - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":141,
+        "AMBIENTE":"ESCOLA MUNICIPAL CAROLINA G. FRANCO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":142,
+        "AMBIENTE":"ESCOLA MUNICIPAL DALILA HAENISCH TEIXEIRA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":143,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO GENERAL EURICO GASPAR DUTRA. EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL- LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":144,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO LÍDIA SCHEIDT CURI - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":145,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO MANOEL MOREIRA DE CAMPOS - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL.",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":146,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO PRINCESA ISABEL - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":147,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO PROFESSOR ARIEL JOSÉ PIRES - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":148,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO PROFESSOR MAACK - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":149,
+        "AMBIENTE":"ESCOLA MUNICIPAL DO CAMPO SOFIA HORST - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":150,
+        "AMBIENTE":"ESCOLA MUNICIPAL DOM BOSCO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":151,
+        "AMBIENTE":"ESCOLA MUNICIPAL DOMINGOS SÁVIO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":152,
+        "AMBIENTE":"ESCOLA MUNICIPAL ENOCH TAVARES - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":153,
+        "AMBIENTE":"ESCOLA MUNICIPAL FRANCISCO PEIXOTO DE LACERDA WERNECK - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":154,
+        "AMBIENTE":"ESCOLA MUNICIPAL GABRIEL HUGO RIOS LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":155,
+        "AMBIENTE":"ESCOLA MUNICIPAL HILDEGARD BURJAN - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":156,
+        "AMBIENTE":"ESCOLA MUNICIPAL HIPÓLYTA NUNES DE OLIVEIRA LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":157,
+        "AMBIENTE":"ESCOLA MUNICIPAL INÁ RIBAS CARLI - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":158,
+        "AMBIENTE":"ESCOLA MUNICIPAL IRENE GUIMARÃES PUPO - LABORATÓRIO DE TECNOLOGIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":159,
+        "AMBIENTE":"ESCOLA MUNICIPAL MARIA DE JESUS TAQUES - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":160,
+        "AMBIENTE":"ESCOLA MUNICIPAL PADRE ESTANISLAU CEBULA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":161,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSOR CONRADO GONCALVES DE OLIVEIRA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":162,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSOR DIONÍSIO KLOSTER SAMPAIO - EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":163,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSOR FRANCISCO CONTINI - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":164,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSOR PEDRO ITARARÉ - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":165,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSOR RUY VIRMOND MARQUES EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":166,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA BENEDITA DOS SANTOS - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":167,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA CARMEN TEIXEIRA CORDEIRO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":168,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA DIRCE TEREZINHA JAEGER - EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL - SALA DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":169,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA ELCÍDIA DE SANTA MARIA PEREIRA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":170,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA JULIETA ANCIUTTI - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":171,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA LUIZA PAWLINA DO AMARAL - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":172,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFESSORA SILVANIRA ACYOLI LINS PENHA - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":173,
+        "AMBIENTE":"ESCOLA MUNICIPAL PROFº CHESTER KOCHANSKI- LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":174,
+        "AMBIENTE":"ESCOLA MUNICIPAL RAUL HENRIQUE LUPATTELLI - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":175,
+        "AMBIENTE":"ESCOLA MUNICIPAL SÃO JOSÉ- LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":176,
+        "AMBIENTE":"ESCOLA MUNICIPAL SÃO PEDRO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":177,
+        "AMBIENTE":"ESCOLA PROFESSORA CARLITA GUIMARÃES PUPO - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":178,
+        "AMBIENTE":"ESCOLA RURAL MUNICIPAL DOMINGOS DE MORAES - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":179,
+        "AMBIENTE":"ESCOLA SEBASTIÃO CLARO DE QUADROS - LABORATÓRIO DE TECNOLOGIA EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":180,
+        "AMBIENTE":"ESPAÇO CMAKER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FÁBIO GARCEZ BETTIO",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":181,
+        "AMBIENTE":"ESPAÇO MAKER - CAMPO REAL - CAMPUS GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSÃO CAMPO REAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":182,
+        "AMBIENTE":"ESPAÇO MAKER - CAMPO REAL - CAMPUS IRATI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSÃO CAMPO REAL",
+        "MUNICÍPIO":"IRATI",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":183,
+        "AMBIENTE":"ESPAÇO MAKER - COLÉGIO PROFESSORA DULCE MASCHIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SECRETARIA DE ESTADO DA EDUCAÇÃO E DO ESPORTE DO PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":184,
+        "AMBIENTE":"ESPAÇO MAKER - CRIAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARA O DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO - FUNDETEC",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":185,
+        "AMBIENTE":"ESPAÇO MAKER DA SPRINT INCUBADORA DA UTFPR APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":186,
+        "AMBIENTE":"ESPAÇO MAKER ECOHUB - LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE ESTUDOS SUPERIORES POSITIVO LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":187,
+        "AMBIENTE":"ESPAÇO MAKER NPCSA-MCRONDON",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"MARECHAL CÂNDIDO RONDON",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":188,
+        "AMBIENTE":"ESPAÇO MAKER TECHNOPARK UMUARAMA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE UMUARAMA",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":189,
+        "AMBIENTE":"ESPAÇO MAKER TURVO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE TURVO",
+        "MUNICÍPIO":"TURVO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":190,
+        "AMBIENTE":"ESPAÇO MAKER UFPR - SEÇÃO DE IMPRENSA UNIVERSITÁRIA DA UFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PIRAQUARA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":191,
+        "AMBIENTE":"FABLAB UTFPR - FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":192,
+        "AMBIENTE":"IFMAKER CAIUÁ DO IFPR - CAMPUS PARANAVAÍ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARANÁ - CAMPUS PARANAVAÍ",
+        "MUNICÍPIO":"PARANAVAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":193,
+        "AMBIENTE":"INDUSLAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INDUSBELLO - IND. E COM. DE PRODUTOS MÉDICOS E ODONTOLÓGICOS",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":194,
+        "AMBIENTE":"LAB GSA - LABORATÓRIO DO GRUPO DE SISTEMAS AUTOMOTIVOS DA UTFPR CAMPUS PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":195,
+        "AMBIENTE":"LABMAKER - UNESPAR - UNIÃO DA VITÓRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"UNIÃO DA VITÓRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":196,
+        "AMBIENTE":"LABMAKER CONECTINOVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":197,
+        "AMBIENTE":"LABORATÓRIO DE ELETRIFICAÇÃO VEICULAR (LEV) DA UTFPR CAMPUS PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":198,
+        "AMBIENTE":"LABORATÓRIO DE IDEIAS (LAB DE IDEIAS)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AGÊNCIA DE INOVAÇÃO E DESENVOLVIMENTO DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":199,
+        "AMBIENTE":"LABORATÓRIO DE INOVAÇÕES TECNOLÓGICAS EM ZOOTECNIA LITEZ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":200,
+        "AMBIENTE":"LABORATÓRIO DE MANUFATURA ADITIVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":201,
+        "AMBIENTE":"LABORATÓRIO DE PESQUISA, INOVAÇÃO E TÉCNICA CIRÚRGICA BÁSICA PROF. DR. FRANCISCO PEREIRA SILVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEL - UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":202,
+        "AMBIENTE":"LABORATÓRIO DE PROTOTIPAGEM BIOPARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PARQUE CIENTIFICO E TECNOLÓGICO DE BIOCIÊNCIAS - BIOPARK",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":203,
+        "AMBIENTE":"LABORATÓRIO DE TECNOLOGIAS INTEGRADAS IP CONTROL - COLÉGIO LOBO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COLÉGIO LOBO",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":204,
+        "AMBIENTE":"LABORATÓRIO MAKER DO IFPR - CAMPUS PITANGA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PITANGA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":205,
+        "AMBIENTE":"LABORATÓRIO MAKER DO IFPR CORONEL VIVIDA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CORONEL VIVIDA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":206,
+        "AMBIENTE":"LABORATORIES MAKER IFPR TELÊMACO BORBA (LAB MAKER IFPRTB)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":207,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO E EMPREENDEDORISMO FACULDADES PEQUENO PRÍNCIPE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO HOSPITALAR DE PROTEÇÃO À INFÂNCIA DR. RAUL CARNEIRO",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":208,
+        "AMBIENTE":"NÚCLEO DE PESQUISA E TREINAMENTO EM TECNOLOGIAS ABERTAS (NUTAB)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE FRANCISCO BELTRÃO",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":209,
+        "AMBIENTE":"PELOTÃO ESPERANÇA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DOS AMIGOS DO GRUPO E DO PELOTÃO ESPERANÇA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":210,
+        "AMBIENTE":"PROTOS MAKERSPACE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":211,
+        "AMBIENTE":"REDE FABLAB POSITIVO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"POSITIVO EDUCACIONAL LTDA. - POSITIVO EDUCACIONAL JÚNIOR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":212,
+        "AMBIENTE":"TECHLAB ESPAÇO MAKER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FILADÉLFIA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":213,
+        "AMBIENTE":"XICOR.IA - ESPAÇO MAKER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"MERCADOMOVEIS LTDA. - LOJAS MM",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":214,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL EGDAR ZANONI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":215,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL DOUTOR CARLOS RIBEIRO DE MACEDO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":216,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL DOUTOR OTHON MADER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":217,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL MARIA LAURA PEREIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":218,
+        "AMBIENTE":"LAC - ESCOLA MUL. DOUTOR EDGAR SPONHOLZ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":219,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO DOUTOR PLAUTO MIRÓ GUIMARÃES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":220,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO DOUTOR ELYSEU DE CAMPOS MELLO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":221,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL CATARINA MIRÓ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":222,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL DEPUTADO MÁRIO BRAGA RAMOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":223,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL DR JOSÉ PINTO ROSAS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":224,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL GENERAL ALDO BONDE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":225,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL HUMBERTO CORDEIRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":226,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL JOÃO MARIA CRUZ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":227,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PASCOALINO PROVISIERO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":228,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO DOUTOR AMADEU PUPPI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":229,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO ERNESTO GUIMARÃES VILELA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":230,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO HEITOR DITZEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":231,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR FELÍCIO FRANCISQUINY",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":232,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR KAMAL TEBCHERANI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":233,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR RUBENS EDGARD FURSTENBERGER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":234,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA AGENORIDAS STADLER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":235,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA ALDA DOS SANTOS REBONATO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":236,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA ARMIDA FRARE GRÁCIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":237,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA KAZUKO INOUE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":238,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA LUCIA PACHER EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":239,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA MARIA ANTONIA DE ANDRADE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":240,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA MARIA ELVIRA JUSTUS SCHIMIDT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":241,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA MARIA EULINA SANTOS SCHEENA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":242,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA MINERVINA FRANÇA SCUDLARECK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":243,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA OTÁCILIA HASSELMANN DE OLIVEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":244,
+        "AMBIENTE":"LAC - ESCOLA PREFEITO JOSÉ BONIFÁCIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":245,
+        "AMBIENTE":"LAC - ESCOLA PROFESSORA LOISE FOLTRAN DE LARA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":246,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA ECLÉA DOS PASSOS HORN",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":247,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PREFEITO CORONEL CLÁUDIO GONÇALVES GUIMARÃES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":248,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR IVON ZARDO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":249,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR PAULO GROTT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":250,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR SEBASTIÃO DOS SANTOS E SILVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":251,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA GUITIL FEDERMANN",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":252,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA RUTH HOLZMANN RIBAS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":253,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA ZAHIRA CATTA PRETA MELLO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":254,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA ZENEIDA FREITAS SCHNIRMANN",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":255,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL VEREADOR ADELINO MACHADO DE OLIVEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":256,
+        "AMBIENTE":"LAC - ESECOLA MUNICIPAL OSNI VILACA MONGRUEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":257,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL DOUTOR RAUL PINHEIRO MACHADO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":258,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL GUARACY PARANÁ VIEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":259,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROF NELSON PEREIRA JORGE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":260,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSOR FARIS ANTÔNIO MICHAELE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":261,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA MARTA FILIPKOWSKI DE LIMA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":262,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROFESSORA SHIRLEY AGGI MOURA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":263,
+        "AMBIENTE":"LAC - ESCOLA MUNICIPAL PROTÁZIO SCHEIFER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Espaço Maker",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":264,
+        "AMBIENTE":"ACICLABS HUB DE INOVAÇÃO SEPARTEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":265,
+        "AMBIENTE":"CASA DO DESENVOLVEDOR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TECNOSPEED SA",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":266,
+        "AMBIENTE":"CIKLO HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO EMPRESARIAL DE FRANCISCO BELTRÃO",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":267,
+        "AMBIENTE":"CIKLO2VIZINHOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":" ASSOCIAÇÃO EMPRESARIAL DE DOIS VIZINHOS",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":268,
+        "AMBIENTE":"EDUCALNOVA HUB EDUCACIONAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO DE EDUCAÇAO PARA O FUTURO",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":269,
+        "AMBIENTE":"ELOSPACE HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ELOSPACE",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":270,
+        "AMBIENTE":"EXOHUB CITA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE FOZ DO IGUAÇU",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":271,
+        "AMBIENTE":"HABITAT SENAI CORPORAÇÕES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FIEP\/SENAI",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":272,
+        "AMBIENTE":"HUB CONECTA APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"HUB CONECTA APUCARANA",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":273,
+        "AMBIENTE":"HUB CONNECT HEALTHTECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SOCIEDADE MÉDICA DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":274,
+        "AMBIENTE":"HUB DE INOVAÇÃO +COOP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":275,
+        "AMBIENTE":"HUB DE INOVAÇÃO DO TURISMO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"VISITE LONDRINA - CONVENTION & VISITORS BUREAU",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":276,
+        "AMBIENTE":"HUB DE INOVAÇÃO FRONTEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":277,
+        "AMBIENTE":"HUB DE INTELIGÊNCIA ARTIFICIAL - SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":278,
+        "AMBIENTE":"HUB INOVACIG",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE GUARAPUAVA",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":279,
+        "AMBIENTE":"I9 CONECTA - HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"BRO8 COWORKING",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":280,
+        "AMBIENTE":"INOVEMM - HUB DE INOVAÇÃO DO ECOSSISTEMA DO ELETROMETALMECÂNICO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDIMETAL NORTE\/PR",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":281,
+        "AMBIENTE":"LABORATÓRIO DE INOVAÇÃO JURÍDICA DO CURSO DE DIREITO DA PUCPR - CÂMPUS LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PONTIFÍCIA UNIVERSIDADE CATÓLICA PUC\/PR",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":282,
+        "AMBIENTE":"NEXO ESPAÇO DE NEGÓCIOS E COWORKING",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"NEXO GESTÃO EMPRESARIAL",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":283,
+        "AMBIENTE":"NÚCLEO DE EMPREENDEDORISMO, PESQUISA E INOVAÇÃO - NEPE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO UNIVESITARIO INTEGRADO",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":284,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO E EXPERIMENTAÇÃO AGRÍCOLA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JANDAIA DO SUL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":285,
+        "AMBIENTE":"UNIHUB - USINA DE NEGÓCIOS INOVADORES",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIHUB - CAMPUS CASCAVEL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":286,
+        "AMBIENTE":"ESPAÇO IMPULSO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COOPAVEL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":287,
+        "AMBIENTE":"3D CONNECT LTDA.",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"3D CONNECT LTDA.",
+        "MUNICÍPIO":"IMBITUVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":288,
+        "AMBIENTE":"ABRATIC HUB - HUB DE INOVAÇÃO DO ECOSSISTEMA DO TIC DE LONDRINA E REGIÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ABRATIC - ASSOCIAÇÃO BRASILEIRA DE TECNOLOGIA INOVAÇÃO E COMUNICAÇÃO",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":289,
+        "AMBIENTE":"ACIC HUB - HUB EE INOVAÇÃO DE CIANORTE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE CIANORTE",
+        "MUNICÍPIO":"CIANORTE",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":290,
+        "AMBIENTE":"ACIR - HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ACIR - ASSOCIAÇÃO EMPRESARIAL DE ROLÂNDIA",
+        "MUNICÍPIO":"ROLÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":291,
+        "AMBIENTE":"AMTECH - AGÊNCIA MARINGÁ DE TECNOLOGIA E INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":292,
+        "AMBIENTE":"BIO HEALTH HUB CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO DE BIOLOGIA MOLECULAR DO PARANÁ (IBMP)",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":293,
+        "AMBIENTE":"CAMBÉ INOVAHUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE CAMBÉ - SECRETARIA MUNICIPAL DE DESENVOLVIMENTO ECONÔMICO",
+        "MUNICÍPIO":"CAMBÉ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":294,
+        "AMBIENTE":"CARTÓRIO TECHHUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CARTÓRIO CANZIANI - CARTÓRIO DE REGISTRO DE IMÓVEIS -2º OFICIO",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":295,
+        "AMBIENTE":"CONSTRUHUB: HUB DE INOVAÇÃO DA CONSTRUÇÃO CIVIL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDUSCON PARANÁ NORTE",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":296,
+        "AMBIENTE":"DB1 LABS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"DB1 LABS LTDA.",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":297,
+        "AMBIENTE":"E-CRIA HUB - HUB DE ECONOMIA CRIATIVA DE LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ESPAÇO VILLA RICA LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":298,
+        "AMBIENTE":"ESTAÇÃO HUB PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":299,
+        "AMBIENTE":"HEAD STARTUP SCHOOL - HUB EDUCACIONAL AVANÇADO DECOLA STARTUP SCHOOL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"DECOLA STARTUP SCHOOL LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":300,
+        "AMBIENTE":"HELLO WORLD - HUB DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"VCX INVESTIMENTOS",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":301,
+        "AMBIENTE":"HUB ACIL DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE LONDRINA - ACIL",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":302,
+        "AMBIENTE":"HUB DE BIOINFORMÁTICA PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DAS EMPRESAS BRASILEIRAS DE TECNOLOGIA DA INFORMAÇÃO - ASSESPRO REGIONAL PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":303,
+        "AMBIENTE":"HUB DE INOVAÇÃO - FIOCRUZ PARANÁ - INSTITUTO CARLOS CHAGAS (ICC) - FIOCRUZ PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO CARLOS CHAGAS - FIOCRUZ PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":304,
+        "AMBIENTE":"HUB DE INOVAÇÃO AGRITECH SYMBIOSIS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":305,
+        "AMBIENTE":"HUB DE INOVAÇÃO APLICAÇÕES TECNOLÓGICAS DE PRODUTOS NATURAIS - ATPN",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":306,
+        "AMBIENTE":"HUB DE INOVAÇÃO CONECTA\/ISCAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IRMANDADE DA SANTA CASA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":307,
+        "AMBIENTE":"HUB DE INOVAÇÃO DA INBIX",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INBIX VENTURES S.A",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":308,
+        "AMBIENTE":"HUB DE INOVAÇÃO GRALHA AZUL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"POLO DIGITAL GRALHA AZUL (ASSOCIAÇÃO DE FOMENTO TECNOLÓGICO DA REGIÃO CENTRO-LESTE PARANAENSE)",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":309,
+        "AMBIENTE":"HUB DE INOVAÇÃO MÓVEISHUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SIMA - SINDICATO DA INDÚSTRIA MOVELEIRA DE ARAPONGAS",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":310,
+        "AMBIENTE":"HUB DE INOVAÇÃO PARA COMPETITIVIDADE GLOBAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DAS EMPRESAS BRASILEIRAS DE TECNOLOGIA DA INFORMAÇÃO - ASSESPRO REGIONAL PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":311,
+        "AMBIENTE":"HUB DE SAÚDE DA AML",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO MÉDICA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":312,
+        "AMBIENTE":"HUB HOTMILK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO PARANAENSE DE CULTURA - APC",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":313,
+        "AMBIENTE":"HUB INOVAAGRO AGRITECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SOCIEDADE RURAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":314,
+        "AMBIENTE":"HUB INOVAMETAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDICATO DAS INDÚSTRIAS METALÚRGICAS, MECÂNICAS E DE MATERIAL ELÉTRICO DE MARINGÁ - SINDIMETAL MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":315,
+        "AMBIENTE":"HUB INOVATEC UTFPR DE AGRIFAMILIAR & DIGITAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":316,
+        "AMBIENTE":"HUB IOT URBANNEXT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DAS EMPRESAS BRASILEIRAS DE TECNOLOGIA DA INFORMAÇÃO - ASSESPRO REGIONAL PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":317,
+        "AMBIENTE":"HUB MULHERES EM GOVTECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO HUB MULHERES EM GOVTECH",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":318,
+        "AMBIENTE":"HUB SOFTEX PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO DAS EMPRESAS BRASILEIRAS DE TECNOLOGIA DA INFORMAÇÃO - ASSESPRO REGIONAL PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":319,
+        "AMBIENTE":"HUB VALLEY",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"I9 COMUNICAÇÃO E INOVAÇÃO",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":320,
+        "AMBIENTE":"HUBI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE QUEDAS DO IGUAÇU - ACIQI",
+        "MUNICÍPIO":"QUEDAS DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":321,
+        "AMBIENTE":"I.PRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"I PRO GESTÃO E TREINAMENTOS LTDA.",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":322,
+        "AMBIENTE":"IDEA 5",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IDEA5",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":323,
+        "AMBIENTE":"IDEIA HUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ID AGÊNCIA LTDA.",
+        "MUNICÍPIO":"ROLÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":324,
+        "AMBIENTE":"IMPACT HUB CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"IMPACT HUB CURITIBA",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":325,
+        "AMBIENTE":"INDÚSTRIA CRIATIVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUIÇÃO ADVENTISTA SUL BRASILEIRA DE EDUCAÇÃO",
+        "MUNICÍPIO":"IVATUBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":326,
+        "AMBIENTE":"INGÁ GAME START",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INGÁ GAME START INOVA SIMPLES (I.S.)",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":327,
+        "AMBIENTE":"INOVA AGRO SUDOESTE DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AGÊNCIA DE DESENVOLVIMENTO REGIONAL DO SUDOESTE DO PARANÁ",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":328,
+        "AMBIENTE":"INTEGROW",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CEI - CENTRO EDUCACIONAL INTEGRADO LTDA.",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":329,
+        "AMBIENTE":"LABORATÓRIO DE TECNOLOGIA AVANÇADO ANDRÉ LUIZ CAMARGO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":330,
+        "AMBIENTE":"MENTECH - MENTORIA EM TECNOLOGIA E EDUCAÇÃO CRIATIVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CÓDIGO KID ENSINO LTDA.",
+        "MUNICÍPIO":"ROLÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":331,
+        "AMBIENTE":"N3XT - HUB DE INOVAÇÃO & COWORKING",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"N3XT SERVIÇOS DE INTERNET LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":332,
+        "AMBIENTE":"OPETLAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO OPET",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":333,
+        "AMBIENTE":"PROGRAMA DE EXTENSÃO INOVAÇÃO E DESENVOLVIMENTO TERRITORIAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":334,
+        "AMBIENTE":"THE BETS HEALTH - HUB DE INOVAÇÃO EM SAÚDE, MARKETING E NEGÓCIOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"THE BETS HEALTH - TREINAMENTOS, MARKETING, COMUNICAÇÃO E INOVAÇÃO LTDA.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":335,
+        "AMBIENTE":"TOKEN ECONOMY HUB BLOCKCHAIN PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TOKEN ECONOMY MARKETING E EVENTOS",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":336,
+        "AMBIENTE":"UMIPTT - UNIDADE MISTA DE PESQUISA E TRANSFERÊNCIA DE TECNOLOGIA - SUDOESTE DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":337,
+        "AMBIENTE":"UNIFIL HEALTH TECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FILADÉLFIA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Hub de Inovação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":338,
+        "AMBIENTE":"INCUBADORA SANTOS DUMONT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PARQUE TECNOLÓGICO PTI",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":339,
+        "AMBIENTE":"INCUBADORA SPRINT UTFPR APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":340,
+        "AMBIENTE":"AGENCIA DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"IBIPORÃ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":341,
+        "AMBIENTE":"CENTRO INCUBADOR TECNOLOGICO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARA O DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO - FUNDETEC",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":342,
+        "AMBIENTE":"EVOLVE - INCUBADORA TECNOLÓGICA CENTRO UNIVERSITÁRIO CAMPO REAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSAO CAMPO REAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":343,
+        "AMBIENTE":"FUNDAÇÃO EDUCERE DE CAMPO MOURÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO EDUCERE",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":344,
+        "AMBIENTE":"GRAPE TECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"COLOMBO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":345,
+        "AMBIENTE":"INCUBADORA DA UTFPR CAMPUS CAMPO MOURÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":346,
+        "AMBIENTE":"INCUBADORA DE EMPRESAS DE BASE TECNOLÓGICA OU SOCIAL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":347,
+        "AMBIENTE":"INCUBADORA DE EMPRESAS DO IFPR - CAMPUS JACAREZINHO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":348,
+        "AMBIENTE":"INCUBADORA DE NEGÓCIOS IRATI - INETI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNICENTRO - UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+        "MUNICÍPIO":"IRATI",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":349,
+        "AMBIENTE":"INCUBADORA IFPR CAMPUS UNIÃO DA VITÓRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"UNIÃO DA VITÓRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":350,
+        "AMBIENTE":"INCUBADORA INDIOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERGIO LUIZ WINKERT",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":351,
+        "AMBIENTE":"INCUBADORA OUTBOX FAPI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"OUTBOX FAPI",
+        "MUNICÍPIO":"PINHAIS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":352,
+        "AMBIENTE":"INCUBADORA SOCIAL DA AGITEC UNESPAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAGUÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":353,
+        "AMBIENTE":"INCUBADORA SOCIAL DA UNICENTRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNICENTRO - UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":354,
+        "AMBIENTE":"INCUBADORA SPRINT PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":355,
+        "AMBIENTE":"INCUBADORA SPRINT UTFPR PATO BRANCO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":356,
+        "AMBIENTE":"INCUBADORA TECNOLÓGICA DA UFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":357,
+        "AMBIENTE":"INCUBADORA TECNOLÓGICA DE MARINGÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INCUBADORA TECNOLÓGICA DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":358,
+        "AMBIENTE":"INCUBADORA TECNOLÓGICA DO TECPAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TECPAR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":359,
+        "AMBIENTE":"INTECFB - INCUBADORA TECNOLÓGICA DE FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO CULTURAL, EDUCACIONAL E TECNOLÓGICA DE FRANCISCO BELTRÃO - TECXEL",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":360,
+        "AMBIENTE":"INTEG UNICENTRO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNICENTRO - UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":361,
+        "AMBIENTE":"INTUEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEL - UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":362,
+        "AMBIENTE":"PRÉ-INCUBADORA CLM",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"ITAMBARACÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":363,
+        "AMBIENTE":"PROGRAMAS PARA EMPRESAS - BIOPARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"BIOPARK",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":364,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":365,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR CAMPUS LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":366,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR CAMPUS MEDIANEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"MEDIANEIRA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":367,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR CAMPUS SANTA HELENA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"SANTA HELENA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":368,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR CORNÉLIO PROCÓPIO NÍVEL 1 E NÍVEL 2",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CORNÉLIO PROCÓPIO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":369,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":370,
+        "AMBIENTE":"SPRINT - INCUBADORA TECNOLÓGICA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":371,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR DOIS VIZINHOS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":372,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":373,
+        "AMBIENTE":"SUDOTEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO PARA O DESENVOLVIMENTO TECNOLÓGICO E INDUSTRIAL DO SUDOESTE DO PARANÁ",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":374,
+        "AMBIENTE":"UNIFIL INCUBADORA DE STARTUPS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FILADÉLFIA DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":375,
+        "AMBIENTE":"UNIHUB CAMPUS TOLEDO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":376,
+        "AMBIENTE":"ACICLABS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE CASCAVEL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":377,
+        "AMBIENTE":"CENTRO DE EMPREENDEDORISMO INOVADOR DE REALEZA - CER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE REALEZA",
+        "MUNICÍPIO":"REALEZA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":378,
+        "AMBIENTE":"GUAIRACÁLAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SESG - SOCIEDADE DE EDUCAÇÃO SUPERIOR GUAIRACÁ LTDA.",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":379,
+        "AMBIENTE":"HUBI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE QUEDAS DO IGUAÇU - ACIQI",
+        "MUNICÍPIO":"QUEDAS DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":380,
+        "AMBIENTE":"INCUBADORA DE EMPRESAS DO IFPR CAMPUS PINHAIS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PINHAIS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":381,
+        "AMBIENTE":"INCUBADORA DE PALMAS IFPR\/PMP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PALMAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":382,
+        "AMBIENTE":"INCUBADORA DE PROJETOS TECNOLÓGICOS (INPROTEC)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEPG - UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":383,
+        "AMBIENTE":"INCUBADORA MUNICIPAL DE CAMPO LARGO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUCICIPAL DE CAMPO LARGO",
+        "MUNICÍPIO":"CAMPO LARGO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":384,
+        "AMBIENTE":"INCUBADORA TECHNOPARK - UMUARAMA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE UMUARAMA",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":385,
+        "AMBIENTE":"INCUBADORA TECNOLÓGICA DE IVAIPORÃ - POLO AGROTECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL IVAIPORÃ",
+        "MUNICÍPIO":"IVAIPORÃ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":386,
+        "AMBIENTE":"INCUBADORA TECNOLÓGICA DO IFPR CAMPUS ASTORGA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"ASTORGA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":387,
+        "AMBIENTE":"INOVA CAMBÉ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE CAMBÉ",
+        "MUNICÍPIO":"CAMBÉ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":388,
+        "AMBIENTE":"ITECPB - INCUBADORA DE BASE TECNOLÓGICA DE PATO BRANCO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE PATO BRANCO",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":389,
+        "AMBIENTE":"ROLANTEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE ROLÂNDIA",
+        "MUNICÍPIO":"ROLÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":390,
+        "AMBIENTE":"UNIHUB - MARECHAL CÂNDIDO RONDON",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"MARECHAL CÂNDIDO RONDON",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":391,
+        "AMBIENTE":"INOVUS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":" ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":392,
+        "AMBIENTE":"AGITEC UNESPAR - Hotel Tecnológico",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNESPAR - UNIVERSIDADE ESTADUAL DO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":393,
+        "AMBIENTE":"AGROI9 INCUBADORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AGROI9 INCUBADOR",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":394,
+        "AMBIENTE":"CONSTRUHUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDUSCON\/NORTE",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":395,
+        "AMBIENTE":"ECOHUB - PRÉ-INCUBADORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIVERSIDADE POSITIVO",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":396,
+        "AMBIENTE":"ESPAÇO UNIFATECIE DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO UNIVERSITÁRIO UNIFATECIE",
+        "MUNICÍPIO":"PARANAVAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":397,
+        "AMBIENTE":"IDAÍ? - PRÉ-INCUBADORA DO UNIDEP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CETNRO UNIVERSITÁRIO DE PATO BRANO",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":398,
+        "AMBIENTE":"IDEALIZE: PRÉ-INCUBADORA DE IDEAÇÃO E DESENVOLVIMENTO DE NOVOS NEGÓCIOS DA UFPR EM JANDAIA DO SUL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"JANDAIA DO SUL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":399,
+        "AMBIENTE":"INCUBADORA DE DESENVOLVIMENTO EMPRESARIAL COM INOVAÇÃO APLICADA - UENP CCP",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UENP - UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+        "MUNICÍPIO":"CORNÉLIO PROCÓPIO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":400,
+        "AMBIENTE":"INCUBADORA DE NEGÓCIOS DE IMPACTO DO IFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PARANAGUÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":401,
+        "AMBIENTE":"INTECFB - INCUBADORA TECNOLÓGICA DE FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO CULTURAL, EDUCACIONAL E TECNOLÓGICA DE FRANCISCO BELTRÃO - TECXEL",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":402,
+        "AMBIENTE":"MÓVEIS HUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDICATO DAS INDÚSTRIAS DE MÓVEIS DE ARAPONGAS",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":403,
+        "AMBIENTE":"PRÉ-INCUBAÇÃO JOIAS DO AGRONEGÓCIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"SANTO ANTÔNIO DA PLATINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":404,
+        "AMBIENTE":"PRÉ-INCUBADORA DA UFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":405,
+        "AMBIENTE":"PRÉ-INCUBADORA ECOAR - ECOSSISTEMA DE INOVAÇÃO DE ARAUCÁRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA DO MUNICÍPIO DE ARAUCÁRIA",
+        "MUNICÍPIO":"ARAUCÁRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":406,
+        "AMBIENTE":"PRÉ-INCUBADORA NIT - FACULDADE UMFG CIANORTE-PR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FACULDADE UMFG",
+        "MUNICÍPIO":"CIANORTE",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":407,
+        "AMBIENTE":"PRÉ-INCUBADORA OUTBOX FAPI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"OUTBOX FAPI",
+        "MUNICÍPIO":"PINHAIS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":408,
+        "AMBIENTE":"SMART SPACE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO UNIVERSITÁRIO CIDADE VERDE",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":409,
+        "AMBIENTE":"SPEEDLAB - CREDENCIAMENTO DE AMBIENTES PROMOTORES DE INOVAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TECNOSPEED SA",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":410,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR CORNÉLIO PROCÓPIO NÍVEL 1 E NÍVEL 2",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CORNÉLIO PROCÓPIO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":411,
+        "AMBIENTE":"TRAMPOLIM PRÉ-INCUBADORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TRANPOLIM PRE-INCUBADORA",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":412,
+        "AMBIENTE":"UNIHUB CAMPUS FOZ DO IGUAÇU",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIOESTE - UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":413,
+        "AMBIENTE":"ACICLABS",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE CASCAVEL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":414,
+        "AMBIENTE":"ASSOCIAÇÃO PARA O DESENVOLVIMENTO TECNOLÓGICO E INDUSTRIAL DO SUDOESTE DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE DOIS VIZINHOS",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":415,
+        "AMBIENTE":"CENTRO DE EDUCAÇÃO EMPREENDEDORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEPG - UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":416,
+        "AMBIENTE":"CENTRO DE EMPREENDEDORISMO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":417,
+        "AMBIENTE":"CENTRO INCUBADOR TECNOLÓGICOS - CTI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARA O DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO - FUNDETEC",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":418,
+        "AMBIENTE":"ENGLAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":419,
+        "AMBIENTE":"EVOLVE - PRÉ-INCUBADORA TECNOLÓGICA CAMPO REAL - CAMPUS GUARAPUAVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSÃO CAMPO REAL",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":420,
+        "AMBIENTE":"EVOLVE - PRÉ-INCUBADORA TECNOLÓGICA CENTRO UNIVERSITÁRIO CAMPO REAL - CAMPUS IRATI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"REAL IPEX - INSTITUTO DE PESQUISA E EXTENSÃO CAMPO REAL",
+        "MUNICÍPIO":"IRATI",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":421,
+        "AMBIENTE":"FACCAR LAB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO ROLANDENSE DE ENSINO E CULTURA - AREC",
+        "MUNICÍPIO":"ROLÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":422,
+        "AMBIENTE":"FACULDADE DE EDUCAÇÃO SUPERIOR DO PARANÁ (FESPPR)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FACULDADE DE EDUCAÇÃO SUPERIOR DO PARANÁ (FESPPR)",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":423,
+        "AMBIENTE":"HOTMILK - ECOSSISTEMA DE INOVAÇÃO DA PUCPR CAMPUS LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"APC - ASSOCIAÇÃO PARANAENSE DE CULTURA - PUCPR - CAMPUS LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":424,
+        "AMBIENTE":"HUBI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DE QUEDAS DO IGUAÇU - ACIQI",
+        "MUNICÍPIO":"QUEDAS DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":425,
+        "AMBIENTE":"INCUBADORA DE POLÍTICAS PÚBLICAS DO SUDOESTE DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFFS - UNIVERSIDADE FEDERAL DA FRONTEIRA SUL",
+        "MUNICÍPIO":"REALEZA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":426,
+        "AMBIENTE":"INSTITUTO CALVARY IMPACT HUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO CALVARY IMPACT HUB",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":427,
+        "AMBIENTE":"NITES\/CEM - NÚCLEO DE INOVAÇÃO TECNOLÓGICA E EMPREENDEDORISMO SUSTENTÁVEL DO CENTRO DE ESTUDOS DO MAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTAL DO PARANÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":428,
+        "AMBIENTE":"NÚCLEO DE INOVAÇÃO E EMPREENDEDORISMO FACULDADES PEQUENO PRÍNCIPE - PRÉ-INCUBADORA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO HOSPITALAR DE PROTEÇÃO À INFÂNCIA DR. RAUL CARNEIRO",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":429,
+        "AMBIENTE":"PIINC - PRÉ-INCUBADORA DE NEGÓCIOS DE CAMBARÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE CAMBARÁ",
+        "MUNICÍPIO":"CAMBARÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":430,
+        "AMBIENTE":"PRÉ-INCUBADORA CONECTINOVA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":431,
+        "AMBIENTE":"PRÉ-INCUBADORA FUNDAÇÃO EDUCERE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO EDUCERE DE CAMPO MOURÃO",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":432,
+        "AMBIENTE":"PRÉ-INCUBADORA POSITIVO LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"POSITIVO EDUCACIONAL LTDA. - LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":433,
+        "AMBIENTE":"PRÉ-INCUBAÇÃO BIOPARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PARQUE CIENTIFICO E TECNOLÓGICO DE BIOCIÊNCIAS - BIOPARK",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":434,
+        "AMBIENTE":"PRÉ-INCUBADORA - FIOCRUZ PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO CARLOS CHAGAS - FIOCRUZ PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":435,
+        "AMBIENTE":"PRÉ-INCUBADORA CENTRO DE EMPREENDEDORISMO UFPR SETOR PALOTINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PALOTINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":436,
+        "AMBIENTE":"PRÉ-INCUBADORA ECOHUB - LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE ESTUDOS SUPERIORES POSITIVO LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":437,
+        "AMBIENTE":"PRÉ-INCUBADORA IDEAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UFPR - UNIVERSIDADE FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"MATINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":438,
+        "AMBIENTE":"PRÉ-INCUBADORA INOVA ANHANGUERA - PIIN",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UNIVERSIDADE PITÁGORAS UNOPAR ANHANGUERA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":439,
+        "AMBIENTE":"PRÉ-INCUBADORA ON DEMAND ACADEMY (OD ACADEMY)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ON DEMAND ACADEMY - PERRE MURAKAWA LTDA.",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":440,
+        "AMBIENTE":"PRÉ-INCUBADORA SPRINT-PG DA UTFPR CAMPUS PONTA GROSSA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":441,
+        "AMBIENTE":"PRÉ-SPRINT CURITIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":442,
+        "AMBIENTE":"SPINE - ESPAÇO POLITÉCNICA DE INOVAÇÃO & EMPREENDEDORISMO DA PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"ASSOCIAÇÃO PARANAENSE DE CULTURA - PUCPR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":443,
+        "AMBIENTE":"SPRINT - INCUBADORA DA UTFPR LONDRINA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":444,
+        "AMBIENTE":"SPRINT - INCUBADORA DE INOVAÇÕES TECNOLÓGICAS DA UTFPR - CAMPUS FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":445,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":446,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR CAMPUS SANTA HELENA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"SANTA HELENA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":447,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR APUCARANA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"APUCARANA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":448,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR CAMPUS CAMPO MOURÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CAMPO MOURÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":449,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR CAMPUS MEDIANEIRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"MEDIANEIRA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":450,
+        "AMBIENTE":"SPRINT - PRÉ-INCUBADORA DA UTFPR GUARAPUAVA.",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":451,
+        "AMBIENTE":"SPRINT-PB - PRÉ-INCUBADORA DA UTFPR PATO BRANCO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":452,
+        "AMBIENTE":"THE BETS HEALTH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"THE BETS HEALTH - HUB DE INOVAÇÃO EM SAÚDE, MARKETING E NEGÓCIOS",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":453,
+        "AMBIENTE":"WORKTIBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"AGENCIA CURITIBA DE DESENVOLVIMENTO E INOVAÇÃO S\/A",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Pré-incubadora",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":454,
+        "AMBIENTE":"ECOHUB - PARQUE TECNOLÓGICO EM IMPLANTAÇÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CENTRO DE ESTUDOS SUPERIORES POSITIVO LTDA.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":455,
+        "AMBIENTE":"ENGENIUMPARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SINDUSCON\/AEAM",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":456,
+        "AMBIENTE":"PARQUE CIENTÍFICO E TECNOLÓGICO DA UTFPR - CAMPUS CURITIBA - PCT-CT",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":457,
+        "AMBIENTE":"PARQUE CIENTÍFICO E TECNOLÓGICO DA UTFPR CAMPUS MEDIANEIRA CIENTECH OESTE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"MEDIANEIRA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":458,
+        "AMBIENTE":"PARQUE DE CIÊNCIA E INOVAÇÃO UEM",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UEM - UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":459,
+        "AMBIENTE":"PARQUE ECOTECNOLÓGICO DE PONTA GROSSA - PROFESSOR SÉRGIO ESCORSIM",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"PONTA GROSSA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":460,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DA INDÚSTRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SISTEMA FIEP\/SENAI",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":461,
+        "AMBIENTE":"PARQUE TECNOLÓGICO FRANCISCO SCIARRA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"INSTITUTO DE DESENVOLVIMENTO DE LONDRINA",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":462,
+        "AMBIENTE":"PARQUE TECNOLÓGICO REGIONAL DE UMUARAMA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"UMUARAMA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":463,
+        "AMBIENTE":"PARQUE TECNOLOGICO SRP VALLEY",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SOCIEDADE RURAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":464,
+        "AMBIENTE":"PISTA INNOVATION HUB",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PARQUE AUTODROMO EMPREENDIMENTOS IMOBILIARIOS LTDA.",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":465,
+        "AMBIENTE":"CENTRO DE INOVAÇÃO ISULPAR",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CAEDRHS - ASSOCIAÇÃO DE ENSINO",
+        "MUNICÍPIO":"PARANAGUÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em implantação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":466,
+        "AMBIENTE":"BIOPARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"BIOPARK",
+        "MUNICÍPIO":"TOLEDO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":467,
+        "AMBIENTE":"CILLA TECH PARK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CILA TECH PARK",
+        "MUNICÍPIO":"GUARAPUAVA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":468,
+        "AMBIENTE":"HOTMILK",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"HOTMILK",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":469,
+        "AMBIENTE":"MARINGÁTECH",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"MARINGÁTECH",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":470,
+        "AMBIENTE":"PARQUE DE AGROINOVAÇÃO FUNDETEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":471,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DA SAÚDE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"TECPAR",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":472,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DE ITAIPU - PTI",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PARQUE TECNOLÓGICO PTI",
+        "MUNICÍPIO":"FOZ DO IGUAÇU",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":473,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DE PATO BRANCO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"PATO BRANCO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":474,
+        "AMBIENTE":"PARQUE TECNOLÓGICO EM BIOECONOMIA - SENAI TELÊMACO BORBA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI",
+        "MUNICÍPIO":"TELÊMACO BORBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":475,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DA INDÚSTRIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FEDERAÇÃO DAS INDÚSTRIAS DO PARANÁ - FIEP",
+        "MUNICÍPIO":"CURITIBA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em operação",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":476,
+        "AMBIENTE":"BIOTECH CENTER",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA DO MUNICÍPIO DE ARAUCÁRIA",
+        "MUNICÍPIO":"ARAUCÁRIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":477,
+        "AMBIENTE":"ASSOCIAÇÃO PARA O DESENVOLVIMENTO TECNOLÓGICO E INDUSTRIAL DO SUDOESTE - SUDOTEC",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"DOIS VIZINHOS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":478,
+        "AMBIENTE":"PARQUE CIENTÍFICO E TECNOLÓGICO DA UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ, CAMPUS CORNÉLIO PROCÓPIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"CORNÉLIO PROCÓPIO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":479,
+        "AMBIENTE":"PARQUE CIENTÍFICO E TECNOLÓGICO DA UTFPR-LD",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"UTFPR - UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":480,
+        "AMBIENTE":"PARQUE CIENTÍFICO E TECNOLÓGICO EM ENERGIAS RENOVÁVEIS, TECNOLOGIAS EMERGENTES E MOVELEIROS (ERTEM)",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE ARAPONGAS",
+        "MUNICÍPIO":"ARAPONGAS",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":481,
+        "AMBIENTE":"PARQUE DE AGROINOVAÇÃO DE PARANAVAÍ - AGRO+I",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"PARANAVAÍ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":482,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DE CLEVELÂNDIA",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"CLEVELÂNDIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":483,
+        "AMBIENTE":"PARQUE TECNOLÓGICO DE JACAREZINHO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"JACAREZINHO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":484,
+        "AMBIENTE":"PARQUE TECNOLÓGICO SOFTWARE BY MARINGÁ",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"MARINGÁ",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":485,
+        "AMBIENTE":"PARQUE TECNOLÓGICO SUL DO PARANÁ - VALE DO IGUAÇU",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL",
+        "MUNICÍPIO":"UNIÃO DA VITORIA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":486,
+        "AMBIENTE":"SABER-TEC: RUMO À INOVAÇÃO E SUSTENTABILIDADE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"SOCIEDADE RURAL DA LAPA",
+        "MUNICÍPIO":"LAPA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2023
+    },
+    {
+        "Nº":487,
+        "AMBIENTE":"PARQUE TECNOLÓGICO AGROLEITE",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"CASTROLANDA - COOPERATIVA AGROINDUSTRIAL LTDA.",
+        "MUNICÍPIO":"CASTRO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":488,
+        "AMBIENTE":"PARQUE TECNOLÓGICO FAZENDA REFÚGIO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"COMPANHIA DE HABITAÇÃO DE LONDRINA - COHAB - LD",
+        "MUNICÍPIO":"LONDRINA",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":489,
+        "AMBIENTE":"PARQUE TECNOLÓGICO MINIGUAÇU DE FRANCISCO BELTRÃO",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"PREFEITURA MUNICIPAL DE FRANCISCO BELTRÃO",
+        "MUNICÍPIO":"FRANCISCO BELTRÃO",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    },
+    {
+        "Nº":490,
+        "AMBIENTE":"VILA TECH - PARQUE DE SOFTWARE DE CASCAVEL",
+        "ENTIDADE\/ÓRGÃO PROPONENTE":"FUNDAÇÃO PARA O DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO - FUNDETEC",
+        "MUNICÍPIO":"CASCAVEL",
+        "ÁREA TEMÁTICA\/CONHECIMENTO":"Parque Tecnológico em planejamento",
+        "TERMO FINAL":"Credenciado",
+        "ANO":2024
+    }
+]

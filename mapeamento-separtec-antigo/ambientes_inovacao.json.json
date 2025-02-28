@@ -1,0 +1,26 @@
+[
+    {
+        "Nº": "1",
+        "AMBIENTE": "ACELERADORA HABITAT SENAI",
+        "ENTIDADE/ÓRGÃO PROPONENTE": "SENAI CAMPUS DA INDÚSTRIA",
+        "MUNICÍPIO": "CURITIBA",
+        "ÁREA TEMÁTICA/CONHECIMENTO": "Aceleradora",
+        "ANO": "2023"
+    },
+    {
+        "Nº": "2",
+        "AMBIENTE": "EVOA ACELERADORA",
+        "ENTIDADE/ÓRGÃO PROPONENTE": "EVOA SISCOOB",
+        "MUNICÍPIO": "MARINGÁ",
+        "ÁREA TEMÁTICA/CONHECIMENTO": "Aceleradora",
+        "ANO": "2023"
+    },
+    {
+        "Nº": "3",
+        "AMBIENTE": "3C LAB",
+        "ENTIDADE/ÓRGÃO PROPONENTE": "3C PLUS TI",
+        "MUNICÍPIO": "GUARAPUAVA",
+        "ÁREA TEMÁTICA/CONHECIMENTO": "Aceleradora",
+        "ANO": "2024"
+    }
+]
