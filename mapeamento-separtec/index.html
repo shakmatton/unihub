@@ -68,10 +68,34 @@
   <script>
     var map = L.map('map').setView([-25.0284, -51.5733], 7);
 
+    // https://leaflet-extras.github.io/leaflet-providers/preview/ 
+    // https://github.com/leaflet-extras/leaflet-providers
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
+    }).addTo(map);    
 
+    // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    //   attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+    // }).addTo(map);
+
+    // L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    //   attribution: 'Tiles &copy; Esri'
+    // }).addTo(map);
+
+    // L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+    //   attribution: '&copy; Stadia Maps, &copy; OpenStreetMap contributors'
+    // }).addTo(map);
+
+    // L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
+    //   attribution: '&copy; Wikimedia Maps, &copy; OpenStreetMap contributors'
+    // }).addTo(map);
+
+    // L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+    //   attribution: '&copy; CyclOSM contributors'
+    // }).addTo(map);
+    
+    
     let tableData = [];
     let municipiosLayer;
     let municipiosMap = {};
@@ -103,7 +127,7 @@
             return {
               color: "#000",
               weight: 1,
-              fillColor: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? "#FFC0CB" : "#ccc",
+              fillColor: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? "#FF69B4" : "#ccc",
               fillOpacity: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? 0.5 : 0.3
             };
           },
@@ -263,7 +287,7 @@
       }
       Object.values(municipiosMap).forEach(layer => {
         layer.setStyle({
-          fillColor: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? "#FFC0CB" : "#ccc",
+          fillColor: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? "#FF69B4" : "#ccc",
           fillOpacity: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? 0.5 : 0.3
         });
       });
