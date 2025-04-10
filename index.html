@@ -26,28 +26,28 @@
       width: 90%;
       max-width: 1140px;
       background-color: rgba(255, 255, 255, 0.8);
-      padding: 56px;
-      padding-top: 50px;
+      padding: 40px; /* Reduzi o padding para diminuir o tamanho geral */
+      padding-top: 40px;
       border-radius: 33px;
     }
-    /* Substituição do título UNIHUB por uma imagem de logo (placeholder) */
+    /* Logo placeholder - reduzi a largura máxima */
     .logo {
-      max-width: 400px;
+      max-width: 350px;
       height: auto;
       margin-bottom: 20px;
     }
-    /* Exibe um elemento com a aparência de botão para o título 'ESCOLHA SEU MAPEAMENTO' */
+    /* Subtítulo com aparência de botão, com fonte e margens reduzidas */
     .subtitle-button {
       display: block;
       background-color: #fcba2c;
       color: #000;
-      padding: 16px 32px;
-      font-size: 2.0em;
+      padding: 12px 24px;   /* Menor padding */
+      font-size: 1.9em;     /* Fonte um pouco menor */
       border: none;
       border-radius: 50px;
-      margin-top: 40px;
-      margin-bottom: 95px;
-      cursor: default; /* Não é clicável */
+      margin-top: 25px;     /* Margem superior menor */
+      margin-bottom: 80px;  /* Margem inferior menor */
+      cursor: default;
       font-weight: 500;
       font-style: italic;
       white-space: nowrap;
@@ -65,7 +65,6 @@
         flex-direction: row;
       }
     }
-    /* Removida a largura fixa para que o wrapper se ajuste ao conteúdo (imagem) */
     .button-wrapper {
       display: flex;
       flex-direction: column;
@@ -73,16 +72,17 @@
       text-align: center;
       gap: 10px;
     }
+    /* Botões sem alteração para os demais casos - mas se tornam proporcionais ao wrapper */
     .button {
       background-color: #007bff;
       color: white;
-      padding: 12px 0; /* Ajustado para se adequar a uma única linha */
+      padding: 12px 0;
       border: none;
       border-radius: 5px;
       font-size: 1.5em;
       cursor: pointer;
       transition: transform 0.3s, background-color 0.3s;
-      width: 100%; /* Ocupa a largura do wrapper */
+      width: 100%;
       font-family: 'Fira Sans Extra Condensed', sans-serif;
       font-weight: 500;
       font-style: italic;
@@ -93,19 +93,19 @@
       color: #000;
       transform: scale(1.05);
     }
-    /* Redimensionamento das imagens - ajuste conforme desejado */
+    /* Redimensionamento das imagens ligeiramente reduzido */
     .mapeamento-image-1 img {
-      width: 300px;
+      width: 250px; /* Reduzi de 300px para 250px */
       height: auto;
       object-position: center;
     }
     .mapeamento-image-2 img {
-      width: 360px;
+      width: 300px; /* Reduzi de 360px para 300px */
       height: auto;
       object-position: center;
     }
     .mapeamento-image-3 img {
-      width: 300px;
+      width: 250px; /* Reduzi de 300px para 250px */
       height: auto;
       object-position: center;
     }
@@ -122,9 +122,9 @@
 </head>
 <body>
   <div class="container">
-    <!-- Logo placeholder -->
+    <!-- Logo placeholder usando UNIHUB2.png -->
     <img class="logo" src="UNIHUB2.png" alt="Logo UNIHUB">
-    <!-- Subtítulo com aparência de botão, não clicável -->
+    <!-- Subtítulo estilizado como botão não clicável -->
     <div class="subtitle-button">ESCOLHA SEU MAPEAMENTO</div>
     <div class="button-container">
       <div class="button-wrapper">
