@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapeamento Separtec</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Remove margens e garante que o mapa ocupe toda a tela */
+    body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+    }
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+    /* Retângulo de controle (info-panel) posicionado no canto inferior direito */
+    #info-panel {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 250px;
+      padding: 10px;
+      background-color: rgba(255,255,255,0.9);
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+      border-radius: 5px;
+      font-size: small;
+      z-index: 1000; /* Adicionado para forçar o painel a ficar acima */
+    }
+
+    #info-panel label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    #municipio-select {
+      width: 100%;
+      font-size: small;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="info-panel">
+    <label for="municipio-select">Selecione um Município:</label>
+    <select id="municipio-select">
+      <option value="">Todos</option>
+    </select>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Inicializa o mapa
+    var map = L.map('map').setView([-24.905, -53.8733], 9);
+
+    // Camada base do OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);    
+
+    // Array com os municípios que compõem a Região Oeste do Paraná
+    const municipiosOeste = [
+      "ANAHY",
+      "ASSIS CHATEAUBRIAND",
+      "BOA VISTA DA APARECIDA",
+      "BRAGANEY",
+      "BRASILÂNDIA DO SUL",
+      "CAFELÂNDIA",
+      "CAPITÃO LEÔNIDAS MARQUES",
+      "CASCAVEL",
+      "CÉU AZUL",
+      "CORBÉLIA",
+      "DIAMANTE D´OESTE",
+      "ENTRE RIOS DO OESTE",
+      "FORMOSA DO OESTE",
+      "FOZ DO IGUAÇU",
+      "FRANCISCO ALVES",
+      "GUAÍRA",
+      "IGUATU",
+      "IRACEMA DO OESTE",
+      "ITAIPULÂNDIA",
+      "JESUÍTAS",
+      "LINDOESTE",
+      "MARECHAL CÂNDIDO RONDON",
+      "MARIPÁ",
+      "MATELÂNDIA",
+      "MEDIANEIRA",
+      "MERCEDES",
+      "MISSAL",
+      "NOVA AURORA",
+      "NOVA SANTA ROSA",
+      "OURO VERDE DO OESTE",
+      "PALOTINA",
+      "PATO BRAGADO",
+      "QUATRO PONTES",
+      "RAMILÂNDIA",
+      "SANTA HELENA",
+      "SANTA LÚCIA",
+      "SANTA TEREZA DO OESTE",
+      "SANTA TEREZINHA DE ITAIPU",
+      "SÃO JOSÉ DAS PALMEIRAS",
+      "SÃO MIGUEL DO IGUAÇU",
+      "SÃO PEDRO DO IGUAÇU",
+      "SERRANÓPOLIS DO IGUAÇU",
+      "TERRA ROXA",
+      "TOLEDO",
+      "TUPÃSSI",
+      "UBIRATÃ",
+      "VERA CRUZ DO OESTE"
+    ];
+
+    // Variáveis globais para dados e camadas
+    let tableData = [];
+    let municipiosLayer;
+    let municipiosMap = {};
+    let municipiosComAmbientes = new Set();
+    // Mapeia cores para outros possíveis usos (mantido para futuras funcionalidades)
+    let areaColorMapping = {};
+    const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#8B00FF"];
+    let rainbowIndex = 0;
+
+    // Carrega os dados dos ambientes e filtra para os municípios da Região Oeste
+    function loadTableData() {
+      fetch('dados_separtec_final.json')
+        .then(response => response.json())
+        .then(infoData => {
+          // Filtra somente os dados para municípios da Região Oeste (padronizando para caixa alta)
+          tableData = infoData.filter(item => {
+            return municipiosOeste.includes(item.MUNICÍPIO.toUpperCase());
+          });
+          tableData.forEach(item => {
+            item.ANO = String(item.ANO);
+            municipiosComAmbientes.add(item.MUNICÍPIO.toUpperCase());
+          });
+          populateMunicipioSelect();
+        });
+    }
+
+    // Popula o select com os municípios presentes nos dados
+    function populateMunicipioSelect() {
+      const select = document.getElementById('municipio-select');
+      let municipiosPresentes = [...new Set(tableData.map(item => item.MUNICÍPIO.toUpperCase()))].sort();
+      municipiosPresentes.forEach(muni => {
+        const option = document.createElement('option');
+        option.value = muni;
+        option.textContent = muni;
+        select.appendChild(option);
+      });
+      select.addEventListener('change', function() {
+        const selected = select.value;
+        if (selected === "") {
+          resetMunicipioHighlight();
+        } else {
+          highlightMunicipio(selected);
+        }
+      });
+    }
+
+    // Carrega os polígonos dos municípios a partir do arquivo municipios-pr.json
+    fetch('municipios-pr.json')
+      .then(response => response.json())
+      .then(data => {
+        municipiosLayer = L.geoJSON(data, {
+          style: function(feature) {
+            return {
+              color: "#000",
+              weight: 1,
+              fillColor: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? "#FF69B4" : "#ccc",
+              fillOpacity: municipiosComAmbientes.has(feature.properties.name.toUpperCase()) ? 0.5 : 0.3
+            };
+          },
+          onEachFeature: function(feature, layer) {
+            municipiosMap[feature.properties.name.toUpperCase()] = layer;
+            layer.on({
+              mouseover: function() {
+                let select = document.getElementById('municipio-select');
+                if (select.value === "") {
+                  highlightMunicipio(feature.properties.name);
+                }
+              },
+              mouseout: function() {
+                let select = document.getElementById('municipio-select');
+                if (select.value === "") {
+                  resetMunicipioHighlight();
+                }
+              },
+              click: function() {
+                let select = document.getElementById('municipio-select');
+                select.value = feature.properties.name.toUpperCase();
+                highlightMunicipio(feature.properties.name);
+              }
+            });
+          }
+        }).addTo(map);
+      });
+
+    // Destaca um município no mapa
+    function highlightMunicipio(municipioNome) {
+      resetMunicipioHighlight();
+      const municipioLayer = municipiosMap[municipioNome.toUpperCase()];
+      if (municipioLayer) {
+        municipioLayer.setStyle({ fillColor: "yellow", fillOpacity: 0.7 });
+      }
+    }
+
+    // Restaura os estilos padrão dos municípios
+    function resetMunicipioHighlight() {
+      Object.values(municipiosMap).forEach(layer => {
+        layer.setStyle({
+          fillColor: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? "#FF69B4" : "#ccc",
+          fillOpacity: municipiosComAmbientes.has(layer.feature.properties.name.toUpperCase()) ? 0.5 : 0.3
+        });
+      });
+    }
+
+    // Inicia o carregamento dos dados
+    loadTableData();
+  </script>
+</body>
+</html>
