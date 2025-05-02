@@ -1,0 +1,266 @@
+[
+  {
+    "AMBIENTE": "ACICLABS",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Aceleradora",
+    "LINK_LOGO": "logotipos/Aciclabs.png"
+  },
+  {
+    "AMBIENTE": "REGINA VENTURES - ACELERADORA NO PARANÁ",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Aceleradora",
+    "LINK_LOGO": "logotipos/Regina_Ventures.png"
+  },
+  {
+    "AMBIENTE": "AGÊNCIA DE INOVAÇÃO DA UNIOESTE",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Agência de Inovação/NIT",
+    "LINK_LOGO": "logotipos/Ag_Inov_Unioeste.jpeg"
+  },
+  {
+    "AMBIENTE": "NÚCLEO DE INOVAÇÃO TECNOLÓGICA DA UNIVERSIDADE DA INTEGRAÇÃO LATINO AMERICANA (NIT-UNILA)",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Agência de Inovação/NIT",
+    "LINK_LOGO": "logotipos/NIT_UNILA.jpg"
+  },
+  {
+    "AMBIENTE": "BIOPARK EDUCAÇÃO",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Centro de Inovação",
+    "LINK_LOGO": "logotipos/Biopark_Edu.jpeg"
+  },
+  {
+    "AMBIENTE": "CENTRO DE INOVAÇÃO EM CIÊNCIA E TECNOLOGIA DE PALOTINA - CICT",
+    "MUNICÍPIO": "PALOTINA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Centro de Inovação",
+    "LINK_LOGO": "logotipos/CICT_Palotina.png"
+  },
+  {
+    "AMBIENTE": "ESTACÃO DE INOVAÇÃO HUB ONE",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Centro de Inovação",
+    "LINK_LOGO": "logotipos/Est_Inov_Hub_One.jpeg"
+  },
+  {
+    "AMBIENTE": "ESPAÇO MAKER",
+    "MUNICÍPIO": "MARECHAL CÂNDIDO RONDON",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": "logotipos/EspMaker_MCR.png"
+  },
+  {
+    "AMBIENTE": "ESPAÇO MAKER: INTEGRAÇÃO ENTRE UNIVERSIDADE E COMUNIDADE",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "LAB MAKER IGUAÇU",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": "logotipos/LabMaker_Iguaçu.png"
+  },
+  {
+    "AMBIENTE": "ESPAÇO MAKER - CRIAR",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "ESPAÇO MAKER NPCSA-MCRONDON",
+    "MUNICÍPIO": "MARECHAL CÂNDIDO RONDON",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": "logotipos/EspMaker_MCR.png"
+  },
+  {
+    "AMBIENTE": "LABORATÓRIO DE MANUFATURA ADITIVA",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "LABORATÓRIO DE PROTOTIPAGEM BIOPARK",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Espaço Maker",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "ACICLABS HUB DE INOVAÇÃO SEPARTEC",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "EXOHUB CITA",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "NEXO ESPAÇO DE NEGÓCIOS E COWORKING",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "UNIHUB - USINA DE NEGÓCIOS INOVADORES",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "ESPAÇO IMPULSO",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "HUB DE INOVAÇÃO AGRITECH SYMBIOSIS",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "I.PRO",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Hub de Inovação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "INCUBADORA SANTOS DUMONT",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "CENTRO INCUBADOR TECNOLÓGICO - CTI",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "INCUBADORA INDIOS",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PROGRAMAS PARA EMPRESAS - BIOPARK",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "SPRINT - INCUBADORA DE INOVAÇÕES TECNOLÓGICAS DA UTFPR",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "SPRINT - INCUBADORA DE INOVAÇÕES TECNOLÓGICAS DA UTFPR",
+    "MUNICÍPIO": "MEDIANEIRA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "SPRINT - INCUBADORA DE INOVAÇÕES TECNOLÓGICAS DA UTFPR",
+    "MUNICÍPIO": "SANTA HELENA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "UNIHUB CAMPUS TOLEDO",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": "logotipos/Unihub_Toledo.png"
+  },
+  {
+    "AMBIENTE": "ACICLABS",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "UNIHUB - MARECHAL CÂNDIDO RONDON",
+    "MUNICÍPIO": "MARECHAL CÂNDIDO RONDON",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Incubadora",
+    "LINK_LOGO": "logotipos/Unihub_MCR.png"
+  },
+  {
+    "AMBIENTE": "UNIHUB CAMPUS FOZ DO IGUAÇU",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": "logotipos/Unihub_Foz.jpg"
+  },
+  {
+    "AMBIENTE": "ACICLABS",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "CENTRO INCUBADOR TECNOLÓGICO - CTI",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PRÉ-INCUBAÇÃO BIOPARK",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PRÉ-INCUBADORA CENTRO DE EMPREENDEDORISMO UFPR SETOR PALOTINA",
+    "MUNICÍPIO": "PALOTINA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": "logotipos/Pre_Inc_Palotina.png"
+  },
+  {
+    "AMBIENTE": "SPRINT - PRÉ-INCUBADORA DA UTFPR",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "SPRINT - PRÉ-INCUBADORA DA UTFPR",
+    "MUNICÍPIO": "SANTA HELENA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "SPRINT - PRÉ-INCUBADORA DA UTFPR",
+    "MUNICÍPIO": "MEDIANEIRA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Pré-incubadora",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PARQUE CIENTÍFICO E TECNOLÓGICO DA UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ - CIENTECH OESTE",
+    "MUNICÍPIO": "MEDIANEIRA",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Parque Tecnológico em implantação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "BIOPARK",
+    "MUNICÍPIO": "TOLEDO",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Parque Tecnológico em operação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PARQUE DE AGROINOVAÇÃO FUNDETEC",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Parque Tecnológico em operação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "PARQUE TECNOLÓGICO PTI - ITAIPU PARQUETEC",
+    "MUNICÍPIO": "FOZ DO IGUAÇU",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Parque Tecnológico em operação",
+    "LINK_LOGO": ""
+  },
+  {
+    "AMBIENTE": "VILA TECH - PARQUE DE SOFTWARE DE CASCAVEL",
+    "MUNICÍPIO": "CASCAVEL",
+    "ÁREA TEMÁTICA/CONHECIMENTO": "Parque Tecnológico em planejamento",
+    "LINK_LOGO": ""
+  }
+]

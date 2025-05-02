@@ -9,70 +9,73 @@
     body { margin:0; font-family: Calibri, sans-serif; }
     #map { height:100vh; width:100vw; }
 
-    /* Painel de ambientes (rádio) */
+    /* Painel de ambientes (rádio) – sombreado */
     #ambientes-panel {
       position: fixed; top:10px; right:10px;
       width:240px; max-height:60vh; overflow-y:auto;
-      padding:10px; background:rgba(255,255,255,0.9);
-      box-shadow:0 0 8px rgba(0,0,0,0.3);
-      border-radius:5px; font-size:small; z-index:1000;
+      padding:10px; background:rgba(0,0,0,0.7); color:#fff;
+      box-shadow:0 0 8px rgba(255,255,255,0.3); border-radius:5px;
+      font-size:small; z-index:1000;
     }
     #ambientes-panel strong { display:block; margin-bottom:8px; }
-    #ambientes-panel label {
-      display:flex; align-items:center; margin-bottom:6px; cursor:pointer;
-    }
+    #ambientes-panel label { display:flex; align-items:center; margin-bottom:6px; cursor:pointer; }
     #ambientes-panel input[type="radio"] {
-      margin-right:6px;
-      width:16px; height:16px;
-      border:2px solid var(--amb-color);
-      border-radius:50%;
+      margin-right:6px; width:16px; height:16px;
+      border:2px solid var(--amb-color); border-radius:50%;
       accent-color: var(--amb-color);
     }
     .env-pill {
-      display:inline-block;
-      padding:4px 8px;
-      border-radius:999px;
+      display:inline-block; padding:4px 8px; border-radius:999px;
       transition: background-color .2s, color .2s, border-color .2s;
-      margin-left:4px; user-select:none;
-      border:2px solid transparent;
+      margin-left:4px; user-select:none; border:2px solid transparent;
     }
     .env-pill.selected {
-      background-color: var(--amb-color);
-      color: #fff;
-      border-color: var(--amb-color);
+      background-color: var(--amb-color); color:#fff; border-color:var(--amb-color);
     }
-    .env-pill.dark-text.selected {
-      color: #000;
-    }
+    .env-pill.dark-text.selected { color:#000; }
 
-    /* Painel de municípios (checkbox) */
+    /* Painel de municípios (checkbox) – sombreado */
     #info-panel {
       position: fixed; bottom:10px; right:10px;
       width:200px; max-height:50vh; overflow-y:auto;
-      padding:10px; background:rgba(255,255,255,0.9);
-      box-shadow:0 0 8px rgba(0,0,0,0.3);
-      border-radius:5px; font-size:small; z-index:1000;
+      padding:10px; background:rgba(0,0,0,0.7); color:#fff;
+      box-shadow:0 0 8px rgba(255,255,255,0.3); border-radius:5px;
+      font-size:small; z-index:1000;
     }
     #info-panel strong { display:block; margin-bottom:8px; }
-    #info-panel label {
-      display:flex; align-items:center; margin-bottom:4px;
-    }
+    #info-panel label { display:flex; align-items:center; margin-bottom:4px; cursor:pointer; }
     #info-panel input[type="checkbox"] { margin-right:6px; }
+
+    /* Painel de hover informativo (cidade / exemplar) */
+    #hover-panel {
+      position: fixed; bottom:10px; left:10px;
+      max-height:80vh; overflow-y:visible;
+      width:300px; padding:10px;
+      background:rgba(0,0,0,0.7); color:#fff;
+      font-size:small; border-radius:5px; z-index:1000;
+    }
+    #hover-panel em { color:#ccc; display:block; margin:0 0 8px; }
+    #hover-panel h4 { margin:0 0 8px; font-size:1em; }
+    #hover-panel p { margin:4px 0; }
+    #hover-panel ul { margin:6px 0 0 16px; padding:0; }
+    #hover-panel li { margin-bottom:6px; }
 
     /* Marcadores de contagem */
     .count-label {
-      width:30px; height:30px;
-      font-size:14px; font-weight:bold;
-      background:#fff; border:2px solid #000;
-      border-radius:50%;
-      display:flex; align-items:center; justify-content:center;
-      white-space:nowrap;
-      transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+      width:30px;height:30px;font-size:14px;font-weight:bold;
+      background:#fff;border:2px solid #000;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      white-space:nowrap;transition:transform .5s cubic-bezier(0.4,0,0.2,1);
       transform-origin:center;
     }
-    .count-label:hover {
-      transform: scale(1.33);
+    .count-label:hover { transform: scale(1.33); }
+
+    /* Ícones de logotipo */
+    .count-icon {
+      width:30px;height:30px;transition:transform .5s cubic-bezier(0.4,0,0.2,1);
+      transform-origin:center;pointer-events:auto;
     }
+    .count-icon:hover { transform: scale(1.33); }
   </style>
 </head>
 <body>
@@ -88,13 +91,16 @@
     <div id="checkbox-list"></div>
   </div>
 
+  <div id="hover-panel"><em>Passe o mouse sobre um município</em></div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
   <script>
     // --- Dados iniciais ---
     const municipiosOeste = [
       "ANAHY","ASSIS CHATEAUBRIAND","BOA VISTA DA APARECIDA","BRAGANEY",
       "BRASILÂNDIA DO SUL","CAFELÂNDIA","CAPITÃO LEÔNIDAS MARQUES","CASCAVEL",
-      "CÉU AZUL","CORBÉLIA","DIAMANTE D´OESTE","ENTRE RIOS DO OESTE",
+      "CÉU AZUL","CORBÉLIA","DIAMANTE D'OESTE","ENTRE RIOS DO OESTE",
       "FORMOSA DO OESTE","FOZ DO IGUAÇU","FRANCISCO ALVES","GUAÍRA",
       "IGUATU","IRACEMA DO OESTE","ITAIPULÂNDIA","JESUÍTAS",
       "LINDOESTE","MARECHAL CÂNDIDO RONDON","MARIPÁ","MATELÂNDIA",
@@ -125,139 +131,184 @@
       "PRÉ-INCUBADORA"
     ]);
 
-    let municipiosMap = {},
-        municipiosComAmbientes = new Set(),
-        countsMap = {},
-        areaCountsMap = {},
-        muniAmbientesMap = {},
-        muniExemplarsMap = {},
-        muniAreaExemplarsMap = {},
-        ambientesSet = new Set(),
-        selectedMunicipios = new Set(),
-        markersMap = {},
-        envMarkersMap = {},
+    // Estruturas
+    let municipiosMap           = {},
+        municipiosComAmbientes  = new Set(),
+        countsMap               = {},
+        areaCountsMap           = {},
+        muniExemplarsMap        = {},
+        muniAreaExemplarsMap    = {},
+        muniFullExemplarsMap    = {}, // completos por área
+        ambientesSet            = new Set(),
+        selectedMunicipios      = new Set(),
+        markersMap              = {},
+        envMarkersMap           = {},
         environmentColorMapping = {},
-        selectedAmbiente = 'TODOS',
-        exemplarLayers = {},
-        exemplarEnvLayers = {};
+        selectedAmbiente        = 'TODOS',
+        exemplarLayers          = {},
+        exemplarEnvLayers       = {},
+        polylineLayers          = {},  // linhas para exemplares
+        polylineEnvLayers       = {},  // linhas para exemplares de área
+        logoMap                 = {};
 
-    // --- Inicializa Mapa ---
+    // Inicializa mapa
     const map = L.map('map').setView([-24.905,-53.8733],9);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
       attribution:'© OpenStreetMap contributors'
     }).addTo(map);
 
-    // === Zoom-responsivo para as bolinhas ===
-    const initialZoom = map.getZoom();
-    const baseSize   = 30; // px
-    const baseFont   = 14; // px
-    const baseBorder = 2;  // px
-
+    // Zoom responsivo
+    const initialZoom = map.getZoom(), baseSize=30, baseFont=14, baseBorder=2;
     function updateLabelSizes(){
-      const scale = map.getZoom() / initialZoom;
+      const scale = map.getZoom()/initialZoom;
       document.querySelectorAll('.count-label').forEach(el=>{
-        el.style.width       = `${baseSize   * scale}px`;
-        el.style.height      = `${baseSize   * scale}px`;
-        el.style.fontSize    = `${baseFont   * scale}px`;
-        el.style.borderWidth = `${baseBorder * scale}px`;
+        el.style.width=`${baseSize*scale}px`;
+        el.style.height=`${baseSize*scale}px`;
+        el.style.fontSize=`${baseFont*scale}px`;
+        el.style.borderWidth=`${baseBorder*scale}px`;
+      });
+      document.querySelectorAll('.count-icon').forEach(el=>{
+        el.style.width=`${baseSize*scale}px`;
+        el.style.height=`${baseSize*scale}px`;
       });
     }
     map.on('zoomend', updateLabelSizes);
 
-    // --- Carrega dados ---
+    // Carrega dados
     fetch('dados_separtec_final.json')
       .then(res=>res.json())
       .then(data=>{
         data.forEach(item=>{
-          const m = item.MUNICÍPIO.toUpperCase();
+          const m    = item.MUNICÍPIO.toUpperCase();
           const area = item["ÁREA TEMÁTICA/CONHECIMENTO"];
-          const exemplar = item.AMBIENTE.split(' ')[0];
+          const key  = item.AMBIENTE.split(' ')[0];
+          const full = item.AMBIENTE;
           ambientesSet.add(area);
           if(municipiosOeste.includes(m)){
             municipiosComAmbientes.add(m);
             countsMap[m] = (countsMap[m]||0)+1;
             areaCountsMap[m] = areaCountsMap[m]||{};
             areaCountsMap[m][area] = (areaCountsMap[m][area]||0)+1;
-            (muniAmbientesMap[m]  || (muniAmbientesMap[m]=[])).push(area);
-            (muniExemplarsMap[m]  || (muniExemplarsMap[m]=[])).push(exemplar);
+            // curtos
+            (muniExemplarsMap[m]   || (muniExemplarsMap[m]=[])).push(key);
             (muniAreaExemplarsMap[m]||(muniAreaExemplarsMap[m]={}))[area] ||= [];
-            muniAreaExemplarsMap[m][area].push(exemplar);
+            muniAreaExemplarsMap[m][area].push(key);
+            // completos
+            muniFullExemplarsMap[m] = muniFullExemplarsMap[m]||{};
+            muniFullExemplarsMap[m][area] = muniFullExemplarsMap[m][area]||[];
+            muniFullExemplarsMap[m][area].push(full);
           }
         });
+        // cores
         [...ambientesSet].sort().forEach((a,i)=>{
-          environmentColorMapping[a] = rainbowColors[i % rainbowColors.length];
+          environmentColorMapping[a] = rainbowColors[i%rainbowColors.length];
         });
         environmentColorMapping["Centro de Inovação"] = "#004343";
+        // logos
+        fetch('logo_ambientes.json')
+          .then(res=>res.json())
+          .then(logos=>{
+            logos.forEach(it=>{
+              const m = it.MUNICÍPIO.toUpperCase(),
+                    k = it.AMBIENTE.split(' ')[0];
+              logoMap[m] = logoMap[m]||{};
+              logoMap[m][k] = it.LINK_LOGO;
+            });
+          });
         populateAmbientesRadios();
         populateMunicipioCheckboxes();
         updateEnvironment();
       });
 
-    // --- Carrega GeoJSON ---
+    // GeoJSON, contorno e máscara
     fetch('municipios-pr.json')
       .then(res=>res.json())
-      .then(data=>{
-        L.geoJSON(data,{
-          style: f=>{
-            const n=f.properties.name.toUpperCase();
-            const ok=municipiosComAmbientes.has(n);
+      .then(geojson=>{
+        L.geoJSON(geojson,{
+          style:f=>{
+            const n=f.properties.name.toUpperCase(),
+                  ok=municipiosComAmbientes.has(n);
             return {
               color:'#000', weight:1,
-              fillColor: ok?'#FF69B4':'#ccc',
-              fillOpacity: ok?0.5:0.3
+              fillColor:ok?'#FF69B4':'#ccc',
+              fillOpacity:ok?0.5:0.3
             };
           },
           onEachFeature:(f,layer)=>{
             const n=f.properties.name.toUpperCase();
             municipiosMap[n]=layer;
+            layer.on('mouseover',()=>{
+              const tot=countsMap[n]||0;
+              let html=`<h4>${n}</h4><p><strong>Total de ambientes de inovação Separtec:</strong> ${tot}</p>`;
+              if(tot>0){
+                for(const ar of Object.keys(muniFullExemplarsMap[n]||{})){
+                  html+=`<p><strong>${ar}:</strong></p><ul>`;
+                  for(const full of muniFullExemplarsMap[n][ar]){
+                    html+=`<li>${full}</li>`;
+                  }
+                  html+='</ul>';
+                }
+              }
+              document.getElementById('hover-panel').innerHTML=html;
+            });
+            layer.on('mouseout',()=>{
+              document.getElementById('hover-panel').innerHTML='<em>Passe o mouse sobre um município</em>';
+            });
             layer.on('click',()=>{
               if(!municipiosComAmbientes.has(n)) return;
               toggleMunicipio(n);
-              const cb = document.getElementById('chk_'+slug(n));
-              if(cb) cb.checked = selectedMunicipios.has(n);
+              const cb=document.getElementById('chk_'+slug(n));
+              if(cb) cb.checked=selectedMunicipios.has(n);
             });
           }
         }).addTo(map);
+
+        // união Oeste + contorno
+        const west = geojson.features.filter(f=>
+          municipiosOeste.includes(f.properties.name.toUpperCase())
+        );
+        let union=west[0];
+        for(let i=1;i<west.length;i++) union=turf.union(union,west[i]);
+        L.geoJSON(union,{style:{color:'#000',weight:2,fill:false,interactive:false}}).addTo(map);
+        // máscara fora do Oeste
+        const world=turf.bboxPolygon([-180,-90,180,90]),
+              mask = turf.difference(world,union);
+        L.geoJSON(mask,{style:{fillColor:'#000',fillOpacity:0.5,stroke:false,interactive:false}}).addTo(map);
       });
 
-    // --- Utilitário slug ---
-    function slug(t){
-      return t.toUpperCase().replace(/\s+/g,'_').replace(/[^A-Z0-9_]/g,'');
-    }
+    function slug(t){ return t.toUpperCase().replace(/\s+/g,'_').replace(/[^A-Z0-9_]/g,''); }
 
-    // --- Popula rádios de ambientes ---
+    // popula rádios
     function populateAmbientesRadios(){
-      const ctr = document.getElementById('ambientes-list');
+      const ctr=document.getElementById('ambientes-list');
       let lblAll=document.createElement('label'),
           rdAll =document.createElement('input'),
           pillAll=document.createElement('span');
       rdAll.type='radio'; rdAll.name='amb'; rdAll.value='TODOS'; rdAll.checked=true;
       rdAll.style.accentColor='#FF69B4';
-      rdAll.addEventListener('change', updateEnvironment);
+      rdAll.addEventListener('change',updateEnvironment);
       pillAll.className='env-pill selected';
       pillAll.style.setProperty('--amb-color','#FF69B4');
       pillAll.textContent='TODOS';
       lblAll.append(rdAll,pillAll);
-      ctr.append(lblAll, Object.assign(document.createElement('div'),{style:'height:8px'}));
+      ctr.append(lblAll,Object.assign(document.createElement('div'),{style:'height:8px'}));
       [...ambientesSet].sort().forEach(area=>{
         let lbl=document.createElement('label'),
-            rd =document.createElement('input'),
+            rd=document.createElement('input'),
             pill=document.createElement('span'),
             color=environmentColorMapping[area];
         rd.type='radio'; rd.name='amb'; rd.value=area;
         rd.style.accentColor=color;
-        rd.addEventListener('change', updateEnvironment);
-        pill.className='env-pill';
-        pill.textContent=area;
+        rd.addEventListener('change',updateEnvironment);
+        pill.className='env-pill'; pill.textContent=area;
         pill.style.setProperty('--amb-color',color);
-        if(darkTextAmbientes.has(area.toUpperCase()))
-          pill.classList.add('dark-text');
+        if(darkTextAmbientes.has(area.toUpperCase())) pill.classList.add('dark-text');
         lbl.append(rd,pill);
         ctr.append(lbl);
       });
     }
 
-    // --- Popula checkboxes de municípios ---
+    // popula checkboxes
     function populateMunicipioCheckboxes(){
       const ctr=document.getElementById('checkbox-list');
       let lblAll=document.createElement('label'),
@@ -266,16 +317,16 @@
       cbAll.addEventListener('change',()=>{
         const on=cbAll.checked;
         municipiosComAmbientes.forEach(m=>{
-          let cb=document.getElementById('chk_'+slug(m));
+          const cb=document.getElementById('chk_'+slug(m));
           on? selectMunicipio(m): deselectMunicipio(m);
           if(cb) cb.checked=on;
         });
       });
       lblAll.append(cbAll,document.createTextNode('TODOS'));
-      ctr.append(lblAll, Object.assign(document.createElement('div'),{style:'height:8px'}));
+      ctr.append(lblAll,Object.assign(document.createElement('div'),{style:'height:8px'}));
       [...municipiosComAmbientes].sort().forEach(m=>{
         let lbl=document.createElement('label'),
-            cb =document.createElement('input');
+            cb=document.createElement('input');
         cb.type='checkbox'; cb.id='chk_'+slug(m);
         cb.addEventListener('change',()=>cb.checked?selectMunicipio(m):deselectMunicipio(m));
         lbl.append(cb,document.createTextNode(m));
@@ -283,10 +334,11 @@
       });
     }
 
-    // --- Atualiza ambiente selecionado ---
+    // atualiza ambientes
     function updateEnvironment(){
       selectedAmbiente=document.querySelector('input[name="amb"]:checked')?.value||'TODOS';
       clearMunicipios(); clearEnvMarkers(); clearEnvExemplars();
+      document.getElementById('hover-panel').innerHTML='<em>Passe o mouse sobre um município</em>';
       municipiosComAmbientes.forEach(m=>{
         const lyr=municipiosMap[m]; if(!lyr) return;
         if(selectedAmbiente==='TODOS'){
@@ -296,29 +348,22 @@
           if(cnt>0){
             lyr.setStyle({fillColor:environmentColorMapping[selectedAmbiente],fillOpacity:0.7});
             addEnvCountMarker(m,cnt);
-          } else {
-            lyr.setStyle({fillOpacity:0});
-          }
+          } else lyr.setStyle({fillOpacity:0});
         }
       });
-      document.querySelectorAll('.env-pill').forEach(pill=>{
-        pill.classList.toggle('selected', pill.textContent===selectedAmbiente);
-      });
+      document.querySelectorAll('.env-pill')
+        .forEach(p=>p.classList.toggle('selected',p.textContent===selectedAmbiente));
     }
 
-    // --- Marcadores de município (fase 1) ---
+    // fase 1: município
     function addCountMarker(m){
       if(markersMap[m]) return;
       const lyr=municipiosMap[m]; if(!lyr) return;
       let pos=lyr.getBounds().getCenter();
       if(offsetsMap[m]) pos=L.latLng(pos.lat+offsetsMap[m][0],pos.lng+offsetsMap[m][1]);
-      const icon=L.divIcon({
-        className:'',
-        html:`<div class="count-label">${countsMap[m]||0}</div>`,
-        iconAnchor:[15,15]
-      });
+      const icon=L.divIcon({className:'',html:`<div class="count-label">${countsMap[m]||0}</div>`,iconAnchor:[15,15]});
       const mk=L.marker(pos,{icon}).addTo(map);
-      mk.on('click', ()=> toggleExemplars(m,pos));
+      mk.on('click',()=>toggleExemplars(m,pos));
       markersMap[m]=mk;
       updateLabelSizes();
     }
@@ -330,106 +375,59 @@
       }
     }
     function toggleExemplars(m,center){
-      if(exemplarLayers[m]) removeExemplars(m);
-      else showExemplars(m,center);
+      exemplarLayers[m]? removeExemplars(m) : showExemplars(m,center);
     }
-
-    // --- showExemplars com disposições customizadas ---
     function showExemplars(m,center){
-      const exs = muniExemplarsMap[m] || [];
-      const cp  = map.latLngToLayerPoint(center);
-      const layers = [];
-
-      if (m === "PALOTINA") {
-        // arco no norte, voltado para baixo (angles π to 2π)
-        const start = Math.PI, end = 2*Math.PI, r = 60;
-        exs.forEach((ex,i) => {
-          const ang = start + (i/(exs.length-1))*(end-start);
-          const px = cp.x + r*Math.cos(ang);
-          const py = cp.y + r*Math.sin(ang) - 20;
-          const ll = map.layerPointToLatLng(L.point(px,py));
-          layers.push(L.marker(ll, {
-            icon: L.divIcon({ className:'', html:`<div class="count-label">${ex}</div>` })
-          }).addTo(map));
+      const exs=muniExemplarsMap[m]||[], cp=map.latLngToLayerPoint(center), layers=[];
+      polylineLayers[m]=[];  // inicializa polylines
+      const r=60;
+      exs.forEach((ex,i)=>{
+        const ang=2*Math.PI*i/exs.length;
+        const px=cp.x+r*Math.cos(ang), py=cp.y+r*Math.sin(ang);
+        const ll=map.layerPointToLatLng(L.point(px,py));
+        // desenha linha
+        const line=L.polyline([center,ll],{color:'#000',weight:1,interactive:false}).addTo(map);
+        polylineLayers[m].push(line);
+        // marcador
+        const html = logoMap[m]?.[ex]
+          ? `<img src="${logoMap[m][ex]}" class="count-icon"/>`
+          : `<div class="count-label">${ex}</div>`;
+        const icon=L.divIcon({className:'',html,iconAnchor:[15,15]});
+        const mk=L.marker(ll,{icon}).addTo(map);
+        mk.on('click',()=>{
+          let area=Object.keys(muniAreaExemplarsMap[m]||{})
+                      .find(a=>muniAreaExemplarsMap[m][a].includes(ex))||'';
+          let full=(muniFullExemplarsMap[m]?.[area]||[])
+                      .find(fn=>fn.startsWith(ex))||ex;
+          let logo=logoMap[m]?.[ex]||null;
+          let html=`<h4>${m}</h4>
+                    <p><strong>Tipo:</strong> ${area}</p>
+                    <p><strong>Exemplar:</strong> ${full}</p>`;
+          if(logo) html+=`<img src="${logo}" style="width:100%;margin-top:6px;
+                       border:1px solid #fff;border-radius:4px;">`;
+          document.getElementById('hover-panel').innerHTML=html;
         });
-
-      } else if (m === "FOZ DO IGUAÇU") {
-        // círculo fechado completo
-        const r = 60;
-        exs.forEach((ex,i) => {
-          const ang = 2*Math.PI * i / exs.length;
-          const px = cp.x + r*Math.cos(ang);
-          const py = cp.y + r*Math.sin(ang);
-          const ll = map.layerPointToLatLng(L.point(px,py));
-          layers.push(L.marker(ll, {
-            icon: L.divIcon({ className:'', html:`<div class="count-label">${ex}</div>` })
-          }).addTo(map));
-        });
-
-      } else if (m === "MARECHAL CÂNDIDO RONDON") {
-        // forma de "L" girado 180° (horizontal abaixo + vertical esquerda)
-        const half = Math.ceil(exs.length/2), spacing = 30;
-        // horizontal abaixo
-        exs.slice(0,half).forEach((ex,i) => {
-          const px = cp.x - (half-1)*spacing/2 + i*spacing;
-          const py = cp.y + 30;
-          const ll = map.layerPointToLatLng(L.point(px,py));
-          layers.push(L.marker(ll, {
-            icon: L.divIcon({ className:'', html:`<div class="count-label">${ex}</div>` })
-          }).addTo(map));
-        });
-        // vertical esquerda
-        exs.slice(half).forEach((ex,i) => {
-          const px = cp.x - 30;
-          const py = cp.y + 30 - (i+1)*spacing;
-          const ll = map.layerPointToLatLng(L.point(px,py));
-          layers.push(L.marker(ll, {
-            icon: L.divIcon({ className:'', html:`<div class="count-label">${ex}</div>` })
-          }).addTo(map));
-        });
-
-      } else {
-        // padrão semi-círculo
-        const baseR = 40, step = 40, groups = Math.ceil(exs.length/5);
-        for(let g=0; g<groups; g++){
-          const slice = exs.slice(g*5,(g+1)*5), r = baseR + g*step;
-          slice.forEach((ex,i) => {
-            const cnt = slice.length;
-            const ang = cnt>1
-              ? -Math.PI/2 + (i/(cnt-1))*Math.PI
-              : 0;
-            const px = cp.x + r*Math.cos(ang),
-                  py = cp.y + r*Math.sin(ang);
-            const ll = map.layerPointToLatLng(L.point(px,py));
-            layers.push(L.marker(ll, {
-              icon: L.divIcon({ className:'', html:`<div class="count-label">${ex}</div>` })
-            }).addTo(map));
-          });
-        }
-      }
-
-      exemplarLayers[m] = layers;
+        layers.push(mk);
+      });
+      exemplarLayers[m]=layers;
       updateLabelSizes();
     }
-
     function removeExemplars(m){
       (exemplarLayers[m]||[]).forEach(l=>map.removeLayer(l));
       delete exemplarLayers[m];
+      (polylineLayers[m]||[]).forEach(l=>map.removeLayer(l));
+      delete polylineLayers[m];
     }
 
-    // --- Marcadores de ambiente (fase 2) ---
+    // fase 2: ambiente
     function addEnvCountMarker(m,cnt){
       if(envMarkersMap[m]) return;
       const lyr=municipiosMap[m]; if(!lyr) return;
       let pos=lyr.getBounds().getCenter();
       if(offsetsMap[m]) pos=L.latLng(pos.lat+offsetsMap[m][0],pos.lng+offsetsMap[m][1]);
-      const icon=L.divIcon({
-        className:'', 
-        html:`<div class="count-label">${cnt}</div>`,
-        iconAnchor:[15,15]
-      });
+      const icon=L.divIcon({className:'',html:`<div class="count-label">${cnt}</div>`,iconAnchor:[15,15]});
       const mk=L.marker(pos,{icon}).addTo(map);
-      mk.on('click', ()=> toggleEnvExemplars(m,selectedAmbiente,pos));
+      mk.on('click',()=>toggleEnvExemplars(m,selectedAmbiente,pos));
       envMarkersMap[m]=mk;
       updateLabelSizes();
     }
@@ -437,46 +435,57 @@
       Object.values(envMarkersMap).forEach(m=>map.removeLayer(m));
       envMarkersMap={};
     }
-    function toggleEnvExemplars(m,area,center){
-      const key=m+'|'+area;
-      if(exemplarEnvLayers[key]) removeEnvExemplars(key);
-      else showEnvExemplars(m,area,center);
+    function toggleEnvExemplars(m,a,center){
+      const key=m+'|'+a;
+      exemplarEnvLayers[key]? removeEnvExemplars(key) : showEnvExemplars(m,a,center);
     }
-    function showEnvExemplars(m,area,center){
-      const exs=(muniAreaExemplarsMap[m]?.[area])||[],
-            cp = map.latLngToLayerPoint(center),
-            baseR = 40, step = 40,
-            groups = Math.ceil(exs.length/5),
-            layers = [];
-      for(let g=0; g<groups; g++){
-        const slice=exs.slice(g*5,(g+1)*5),
-              r    = baseR + g*step;
-        slice.forEach((ex,i)=>{
-          const cnt=slice.length;
-          const ang = cnt>1
-            ? -Math.PI/2 + (i/(cnt-1))*Math.PI
-            : 0;
-          const px=cp.x + r*Math.cos(ang),
-                py=cp.y + r*Math.sin(ang);
-          const ll=map.layerPointToLatLng(L.point(px,py));
-          layers.push(L.marker(ll,{
-            icon:L.divIcon({className:'',html:`<div class="count-label">${ex}</div>`})
-          }).addTo(map));
+    function showEnvExemplars(m,a,center){
+      const exs=(muniAreaExemplarsMap[m]?.[a])||[], cp=map.latLngToLayerPoint(center), layers=[];
+      const key=m+'|'+a;
+      polylineEnvLayers[key]=[];
+      const r=60;
+      exs.forEach((ex,i)=>{
+        const ang=2*Math.PI*i/exs.length;
+        const px=cp.x+r*Math.cos(ang), py=cp.y+r*Math.sin(ang);
+        const ll=map.layerPointToLatLng(L.point(px,py));
+        // linha
+        const line=L.polyline([center,ll],{color:'#000',weight:1,interactive:false}).addTo(map);
+        polylineEnvLayers[key].push(line);
+        // marcador
+        const html = logoMap[m]?.[ex]
+          ? `<img src="${logoMap[m][ex]}" class="count-icon"/>`
+          : `<div class="count-label">${ex}</div>`;
+        const icon=L.divIcon({className:'',html,iconAnchor:[15,15]});
+        const mk=L.marker(ll,{icon}).addTo(map);
+        mk.on('click',()=>{
+          let full=(muniFullExemplarsMap[m]?.[a]||[])
+                     .find(fn=>fn.startsWith(ex))||ex;
+          let logo=logoMap[m]?.[ex]||null;
+          let html=`<h4>${m}</h4>
+                    <p><strong>Tipo:</strong> ${a}</p>
+                    <p><strong>Exemplar:</strong> ${full}</p>`;
+          if(logo) html+=`<img src="${logo}" style="width:100%;margin-top:6px;
+                       border:1px solid #fff;border-radius:4px;">`;
+          document.getElementById('hover-panel').innerHTML=html;
         });
-      }
-      exemplarEnvLayers[m+'|'+area]=layers;
+        layers.push(mk);
+      });
+      exemplarEnvLayers[key]=layers;
       updateLabelSizes();
     }
     function removeEnvExemplars(key){
       (exemplarEnvLayers[key]||[]).forEach(l=>map.removeLayer(l));
       delete exemplarEnvLayers[key];
+      (polylineEnvLayers[key]||[]).forEach(l=>map.removeLayer(l));
+      delete polylineEnvLayers[key];
     }
     function clearEnvExemplars(){
       Object.keys(exemplarEnvLayers).forEach(k=>removeEnvExemplars(k));
       exemplarEnvLayers={};
+      polylineEnvLayers={};
     }
 
-    // --- Seleção de municípios ---
+    // seleção de municípios
     function selectMunicipio(m){
       if(!selectedMunicipios.has(m)){
         selectedMunicipios.add(m);
